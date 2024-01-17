@@ -1,0 +1,100 @@
+@model Request
+@inject IHttpContextAccessor HttpContextAccessor;
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+     <link rel="stylesheet" href="~/css/form.css" type="text/css"asp-append-version="true" />
+    <meta http-equiv='refresh'content="10000;url=https://localhost:7087/Main/SessionExpired" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<header>
+         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="~/images/Elogo.png" style="width: 5%;margin-right:30px;"  alt="LOGO">
+                <a class="navbar-brand" asp-area="" asp-controller="Employee" asp-action="viewProfile">EMPLOYEE MANAGEMENT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse  justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="viewProfile"><b>Profile</b></a>
+                          <li class="nav-item">  <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="Indexes"><b>View Details</b></a></li> 
+                        
+                              <li class="nav-item">   <a class="nav-link text-dark" asp-area="" asp-controller="viewRequestList" asp-action="Create"><b>Request</b></a>
+                        </li></ul>
+                          <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" >
+                    <ul class="navbar-nav ">
+                         <li class="nav-item">
+                         <a class="nav-link text-dark" asp-area="" asp-controller="Request" asp-action="RequestStatus"> <i class="fa fa-bell" style="font-size:28px;color:rgb(22, 17, 19)"></i></a>
+                           
+                        </li>
+                        <li class="nav-item">
+                         <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="viewProfile"> <i class="fa fa-user" style="font-size:28px;color:rgb(22, 17, 19)"></i></a>
+                         
+                        </li>
+                         <li class="nav-item">
+                        
+                           <a class="greeting nav-link text-dark" style="color: rgb(187, 26, 26);">  Hi  @HttpContextAccessor.HttpContext.Session.GetString("EmailId")</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>
+                        </li>
+                    </ul>
+                </div> 
+                         
+             </div>
+                  
+            </div>
+        </nav>
+ 
+  </header>
+
+<h4 style="color: white;text-align:center; margin-top:10px;margin-bottom:10px;">Send Your Request ,if you have any update in your data</h4>
+<div class="">
+    <div class="container" style="width: 50%;">
+        <form asp-action="Create">
+            <div class="Content">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @* <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="request" class="control-label"></label>
+                <input asp-for="request" class="form-control" />
+                <span asp-validation-for="request" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExistingData" class="control-label"></label>
+                <input asp-for="ExistingData" class="form-control" />
+                <span asp-validation-for="ExistingData" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NewData" class="control-label"></label>
+                <input asp-for="NewData" class="form-control" />
+                <span asp-validation-for="NewData" class="text-danger"></span>
+            </div>
+            <div style="margin-top:10px;" class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@* <div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

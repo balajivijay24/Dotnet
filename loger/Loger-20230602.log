@@ -1,0 +1,17 @@
+2023-06-02 09:35:34.342 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 09:35:34.919 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-02 09:35:35.024 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 09:35:35.024 +05:30 [INF] Hosting environment: Development
+2023-06-02 09:35:35.025 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-02 09:35:40.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-02 09:35:41.356 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-02 09:35:42.981 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-02 09:35:43.109 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-02 09:35:43.235 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-02 09:35:44.046 +05:30 [INF] Executed ViewResult - view Index executed in 894.0786ms.
+2023-06-02 09:35:44.054 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 942.0361ms
+2023-06-02 09:35:44.054 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-02 09:35:44.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 3660.8226ms
+2023-06-02 09:35:58.335 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-02 09:35:58.342 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 7.1205ms
+2023-06-02 10:00:53.259 +05:30 [INF] Application is shutting down...

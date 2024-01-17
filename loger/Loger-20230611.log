@@ -1,0 +1,412 @@
+2023-06-11 06:17:31.322 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-11 06:17:32.077 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-11 06:17:32.165 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-11 06:17:32.166 +05:30 [INF] Hosting environment: Development
+2023-06-11 06:17:32.166 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-11 06:17:36.635 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-11 06:17:37.200 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-11 06:17:38.058 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 06:17:38.238 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-11 06:17:38.351 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 06:17:39.816 +05:30 [INF] Executed ViewResult - view Index executed in 1525.3592ms.
+2023-06-11 06:17:39.820 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 1580.7194ms
+2023-06-11 06:17:39.820 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 06:17:40.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 3939.0455ms
+2023-06-11 06:17:40.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:17:40.209 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.0117ms
+2023-06-11 06:17:54.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-11 06:17:54.842 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 06:17:54.849 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:17:55.931 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-11 06:17:56.196 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 267.8856ms.
+2023-06-11 06:17:56.221 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 1370.9069ms
+2023-06-11 06:17:56.221 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 06:17:56.225 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 1404.4207ms
+2023-06-11 06:17:56.387 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - -
+2023-06-11 06:17:56.394 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-11 06:17:56.438 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 43.7354ms
+2023-06-11 06:17:56.457 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:17:56.458 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6604ms
+2023-06-11 06:17:56.467 +05:30 [INF] The file /css/login.css was not modified
+2023-06-11 06:17:56.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - - - 304 - text/css 82.5817ms
+2023-06-11 06:18:04.765 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-11 06:18:04.766 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 06:18:04.887 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:18:10.404 +05:30 [INF] Executed DbCommand (317ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-11 06:18:11.956 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-11 06:18:12.114 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-11 06:18:12.116 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 7227.6822ms
+2023-06-11 06:18:12.117 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 06:18:12.138 +05:30 [INF] Session started; Key:84221397-f7da-fc7f-82a8-17a19d42dae9, Id:3b4f614c-fab0-dad6-d4da-502d2ae5015b
+2023-06-11 06:18:12.164 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 7398.6809ms
+2023-06-11 06:18:12.170 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-11 06:18:12.177 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 06:18:12.181 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:18:12.185 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-11 06:18:12.229 +05:30 [INF] Executed ViewResult - view Profile executed in 45.0375ms.
+2023-06-11 06:18:12.229 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement) in 48.4095ms
+2023-06-11 06:18:12.229 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 06:18:12.229 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 59.2129ms
+2023-06-11 06:18:12.386 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:18:12.387 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.9414ms
+2023-06-11 06:18:17.898 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request - -
+2023-06-11 06:18:17.899 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 06:18:17.913 +05:30 [INF] Route matched with {action = "Index", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:18:18.227 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Requestss] AS [r]
+2023-06-11 06:18:18.667 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[ExistingData], [r].[Name], [r].[NewData], [r].[UserId], [r].[keepLoggedIn], [r].[request]
+FROM [Requestss] AS [r]
+ORDER BY [r].[UserId]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-06-11 06:18:18.718 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 06:18:18.865 +05:30 [INF] Executed ViewResult - view Index executed in 148.4694ms.
+2023-06-11 06:18:18.866 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Index (IdentityManagement) in 952.3424ms
+2023-06-11 06:18:18.866 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 06:18:18.866 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request - - - 200 - text/html;+charset=utf-8 968.7501ms
+2023-06-11 06:18:18.969 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:18:18.969 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2219ms
+2023-06-11 06:18:22.505 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:18:22.510 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:18:22.519 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:18:22.555 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:18:22.555 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 35.9381ms
+2023-06-11 06:18:22.555 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:18:22.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 50.1479ms
+2023-06-11 06:18:27.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:18:27.608 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:18:27.608 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:18:27.609 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:18:27.609 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 1.0553ms
+2023-06-11 06:18:27.609 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:18:27.609 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 12.9793ms
+2023-06-11 06:21:00.004 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:21:00.004 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3195ms
+2023-06-11 06:21:02.007 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - -
+2023-06-11 06:21:02.008 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:02.021 +05:30 [INF] Route matched with {action = "Edit", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:21:02.024 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:21:02.024 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Edit (IdentityManagement) in 3.311ms
+2023-06-11 06:21:02.024 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:02.025 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - - - 404 0 - 17.8017ms
+2023-06-11 06:21:04.632 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - -
+2023-06-11 06:21:04.632 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:04.632 +05:30 [INF] Route matched with {action = "Edit", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:21:04.633 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:21:04.633 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Edit (IdentityManagement) in 0.7934ms
+2023-06-11 06:21:04.635 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:04.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - - - 404 0 - 3.8929ms
+2023-06-11 06:21:05.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - -
+2023-06-11 06:21:05.377 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:05.377 +05:30 [INF] Route matched with {action = "Edit", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:21:05.378 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:21:05.378 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Edit (IdentityManagement) in 1.0455ms
+2023-06-11 06:21:05.378 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:05.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - - - 404 0 - 2.4064ms
+2023-06-11 06:21:06.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - -
+2023-06-11 06:21:06.027 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:06.040 +05:30 [INF] Route matched with {action = "Edit", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:21:06.040 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:21:06.041 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Edit (IdentityManagement) in 0.9484ms
+2023-06-11 06:21:06.041 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:21:06.041 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - - - 404 0 - 14.0318ms
+2023-06-11 06:26:44.209 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-11 06:26:44.495 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-11 06:26:44.526 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-11 06:26:44.527 +05:30 [INF] Hosting environment: Development
+2023-06-11 06:26:44.531 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-11 06:41:34.976 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - -
+2023-06-11 06:41:35.062 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-11 06:41:35.205 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-11 06:41:35.286 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:41:35.389 +05:30 [INF] Route matched with {action = "Edit", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:41:35.770 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:41:35.790 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Edit (IdentityManagement) in 385.6173ms
+2023-06-11 06:41:35.791 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Edit (IdentityManagement)'
+2023-06-11 06:41:35.804 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Edit/sargunanarc@gmail.com - - - 404 0 - 844.9766ms
+2023-06-11 06:41:39.624 +05:30 [INF] Application is shutting down...
+2023-06-11 06:42:42.711 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-11 06:42:43.085 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-11 06:42:43.100 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-11 06:42:43.100 +05:30 [INF] Hosting environment: Development
+2023-06-11 06:42:43.101 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-11 06:42:45.699 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-11 06:42:46.008 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-11 06:42:46.562 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 06:42:46.617 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-11 06:42:46.684 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 06:42:47.310 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:42:47.316 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.3899ms
+2023-06-11 06:42:47.318 +05:30 [INF] Executed ViewResult - view Index executed in 510.6859ms.
+2023-06-11 06:42:47.322 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 704.38ms
+2023-06-11 06:42:47.323 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 06:42:47.442 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1866.4576ms
+2023-06-11 06:42:54.444 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-11 06:42:54.461 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 06:42:54.465 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:42:55.049 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-11 06:42:55.345 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 297.9578ms.
+2023-06-11 06:42:55.433 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 967.8156ms
+2023-06-11 06:42:55.433 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 06:42:55.443 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 998.3930ms
+2023-06-11 06:42:55.865 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-11 06:42:55.867 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:42:55.868 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5506ms
+2023-06-11 06:42:55.913 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 47.4425ms
+2023-06-11 06:43:03.738 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-11 06:43:03.741 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 06:43:03.870 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:43:10.288 +05:30 [INF] Executed DbCommand (759ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-11 06:43:12.007 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-11 06:43:12.247 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-11 06:43:12.250 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 8379.3219ms
+2023-06-11 06:43:12.251 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 06:43:12.269 +05:30 [INF] Session started; Key:9e8f7ec2-5ce1-b943-0207-72efa1d406e4, Id:b5e67d04-bbe5-9172-9545-7129aefcd007
+2023-06-11 06:43:12.285 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 8546.1738ms
+2023-06-11 06:43:12.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-11 06:43:12.339 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 06:43:12.341 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 06:43:12.348 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-11 06:43:12.400 +05:30 [INF] Executed ViewResult - view Profile executed in 54.1087ms.
+2023-06-11 06:43:12.400 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement) in 58.938ms
+2023-06-11 06:43:12.400 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 06:43:12.400 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 66.5975ms
+2023-06-11 06:43:12.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:43:12.613 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3437ms
+2023-06-11 06:43:14.953 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request - -
+2023-06-11 06:43:14.955 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 06:43:14.966 +05:30 [INF] Route matched with {action = "Index", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:15.298 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Requestss] AS [r]
+2023-06-11 06:43:15.691 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[ExistingData], [r].[Name], [r].[NewData], [r].[UserId], [r].[keepLoggedIn], [r].[request]
+FROM [Requestss] AS [r]
+ORDER BY [r].[UserId]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-06-11 06:43:15.739 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 06:43:15.841 +05:30 [INF] Executed ViewResult - view Index executed in 106.7745ms.
+2023-06-11 06:43:15.841 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Index (IdentityManagement) in 875.1131ms
+2023-06-11 06:43:15.841 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 06:43:15.842 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request - - - 200 - text/html;+charset=utf-8 888.7524ms
+2023-06-11 06:43:16.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 06:43:16.070 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3018ms
+2023-06-11 06:43:17.865 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:17.866 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:17.876 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:17.920 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:17.920 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 44.0296ms
+2023-06-11 06:43:17.920 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:17.920 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 54.9954ms
+2023-06-11 06:43:20.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:20.066 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:20.066 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:20.067 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:20.067 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.9335ms
+2023-06-11 06:43:20.068 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:20.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 8.1427ms
+2023-06-11 06:43:21.007 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:21.008 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:21.008 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:21.009 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:21.009 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8544ms
+2023-06-11 06:43:21.009 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:21.009 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 2.0147ms
+2023-06-11 06:43:21.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:21.595 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:21.595 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:21.596 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:21.596 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.7189ms
+2023-06-11 06:43:21.596 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:21.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 6.4067ms
+2023-06-11 06:43:22.114 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:22.121 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:22.121 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:22.122 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:22.122 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.9554ms
+2023-06-11 06:43:22.122 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:22.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 8.5477ms
+2023-06-11 06:43:22.581 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:22.591 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:22.591 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:22.592 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:22.592 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8392ms
+2023-06-11 06:43:22.592 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:22.592 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 11.4551ms
+2023-06-11 06:43:23.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:23.170 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:23.170 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:23.171 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:23.171 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.7414ms
+2023-06-11 06:43:23.171 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:23.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 7.1196ms
+2023-06-11 06:43:46.702 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:46.703 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:46.703 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:46.704 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:46.704 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.9095ms
+2023-06-11 06:43:46.704 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:46.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 2.4452ms
+2023-06-11 06:43:47.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:47.480 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:47.480 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:47.481 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:47.481 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8856ms
+2023-06-11 06:43:47.481 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:47.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 7.2283ms
+2023-06-11 06:43:48.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:48.101 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.102 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:48.102 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:48.102 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8779ms
+2023-06-11 06:43:48.102 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 1.9316ms
+2023-06-11 06:43:48.881 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:48.882 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.882 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:48.883 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:48.884 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 1.7113ms
+2023-06-11 06:43:48.884 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.884 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 3.3405ms
+2023-06-11 06:43:48.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:48.983 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.983 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:48.984 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:48.984 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8729ms
+2023-06-11 06:43:48.984 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:48.984 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 2.1395ms
+2023-06-11 06:43:49.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:49.003 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.003 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:49.004 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:49.004 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.7858ms
+2023-06-11 06:43:49.004 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.004 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 2.1855ms
+2023-06-11 06:43:49.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:49.315 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.315 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:49.316 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:49.316 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.6754ms
+2023-06-11 06:43:49.316 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.316 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 1.6316ms
+2023-06-11 06:43:49.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:49.424 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.424 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:49.425 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:49.425 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8053ms
+2023-06-11 06:43:49.425 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 2.8253ms
+2023-06-11 06:43:49.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:49.987 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.987 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:49.988 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:49.988 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.7158ms
+2023-06-11 06:43:49.988 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:49.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 1.6701ms
+2023-06-11 06:43:50.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 06:43:50.654 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:50.654 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 06:43:50.655 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 06:43:50.655 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 0.8939ms
+2023-06-11 06:43:50.656 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 06:43:50.656 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 3.0735ms
+2023-06-11 21:08:37.718 +05:30 [INF] Application is shutting down...
+2023-06-11 21:16:28.307 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-11 21:16:28.958 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-11 21:16:29.071 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-11 21:16:29.072 +05:30 [INF] Hosting environment: Development
+2023-06-11 21:16:29.072 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-11 21:16:33.318 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-11 21:16:33.782 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-11 21:16:34.581 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 21:16:34.699 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-11 21:16:35.080 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 21:16:37.338 +05:30 [INF] Executed ViewResult - view Index executed in 2544.3382ms.
+2023-06-11 21:16:37.348 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 2644.7308ms
+2023-06-11 21:16:37.348 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-11 21:16:37.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 4129.1214ms
+2023-06-11 21:16:45.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 21:16:45.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.3016ms
+2023-06-11 21:17:39.073 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-11 21:17:39.091 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 21:17:39.098 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 21:17:40.546 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-11 21:17:40.842 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 299.0872ms.
+2023-06-11 21:17:40.860 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 1760.8767ms
+2023-06-11 21:17:40.860 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-11 21:17:40.926 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 1853.2733ms
+2023-06-11 21:17:41.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 21:17:41.121 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8856ms
+2023-06-11 21:17:41.190 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - -
+2023-06-11 21:17:41.193 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-11 21:17:41.224 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 31.0884ms
+2023-06-11 21:17:41.296 +05:30 [INF] The file /css/login.css was not modified
+2023-06-11 21:17:41.300 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - - - 304 - text/css 109.7785ms
+2023-06-11 21:18:05.458 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-11 21:18:05.466 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 21:18:05.548 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 21:18:09.774 +05:30 [INF] Executed DbCommand (239ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-11 21:18:10.542 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-11 21:18:10.609 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-11 21:18:10.610 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 5061.973ms
+2023-06-11 21:18:10.611 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-11 21:18:10.626 +05:30 [INF] Session started; Key:f05b8fb9-f1e3-0cdf-d588-f2bee1cead46, Id:ae6502f5-46e5-f144-b91d-c77805a86421
+2023-06-11 21:18:10.647 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 5189.3383ms
+2023-06-11 21:18:10.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-11 21:18:10.655 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 21:18:10.657 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-11 21:18:10.661 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-11 21:18:10.697 +05:30 [INF] Executed ViewResult - view Profile executed in 36.8403ms.
+2023-06-11 21:18:10.697 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement) in 40.0193ms
+2023-06-11 21:18:10.697 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-11 21:18:10.699 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 50.4978ms
+2023-06-11 21:18:10.869 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 21:18:10.870 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5564ms
+2023-06-11 21:18:13.545 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request - -
+2023-06-11 21:18:13.546 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 21:18:13.557 +05:30 [INF] Route matched with {action = "Index", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 21:18:13.809 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Requestss] AS [r]
+2023-06-11 21:18:14.091 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ID], [r].[ExistingData], [r].[Name], [r].[NewData], [r].[UserId], [r].[keepLoggedIn], [r].[request]
+FROM [Requestss] AS [r]
+ORDER BY [r].[UserId]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-06-11 21:18:14.125 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-11 21:18:14.246 +05:30 [INF] Executed ViewResult - view Index executed in 131.3241ms.
+2023-06-11 21:18:14.247 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Index (IdentityManagement) in 689.6786ms
+2023-06-11 21:18:14.247 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Index (IdentityManagement)'
+2023-06-11 21:18:14.247 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request - - - 200 - text/html;+charset=utf-8 702.4718ms
+2023-06-11 21:18:14.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-11 21:18:14.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2273ms
+2023-06-11 21:18:16.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - -
+2023-06-11 21:18:16.813 +05:30 [INF] Executing endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 21:18:16.824 +05:30 [INF] Route matched with {action = "Delete", controller = "Request"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller RequestController.Controllers.RequestController (IdentityManagement).
+2023-06-11 21:18:16.860 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 404
+2023-06-11 21:18:16.860 +05:30 [INF] Executed action RequestController.Controllers.RequestController.Delete (IdentityManagement) in 35.6414ms
+2023-06-11 21:18:16.860 +05:30 [INF] Executed endpoint 'RequestController.Controllers.RequestController.Delete (IdentityManagement)'
+2023-06-11 21:18:16.860 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Request/Delete/sargunanarc@gmail.com - - - 404 0 - 48.1275ms
+2023-06-11 21:25:50.933 +05:30 [INF] Application is shutting down...

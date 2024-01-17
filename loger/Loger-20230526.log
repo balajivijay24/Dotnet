@@ -1,0 +1,1234 @@
+2023-05-26 09:57:16.421 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 09:57:18.888 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-26 09:57:18.959 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 09:57:18.959 +05:30 [INF] Hosting environment: Development
+2023-05-26 09:57:18.960 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-26 09:57:36.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 09:57:37.172 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-26 09:57:39.243 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 09:57:39.590 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 09:57:40.416 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 09:57:44.634 +05:30 [INF] Executed ViewResult - view Index executed in 3919.8065ms.
+2023-05-26 09:57:44.648 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 5056.0653ms
+2023-05-26 09:57:44.649 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 09:57:45.830 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 10200.2594ms
+2023-05-26 09:58:09.921 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 09:58:09.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.7350ms
+2023-05-26 21:46:51.614 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 21:46:52.926 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-26 21:46:53.029 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 21:46:53.029 +05:30 [INF] Hosting environment: Development
+2023-05-26 21:46:53.030 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-26 21:46:56.913 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 21:46:57.218 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-26 21:46:58.430 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 21:46:58.578 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 21:46:58.758 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 21:47:00.797 +05:30 [INF] Executed ViewResult - view Index executed in 2018.0921ms.
+2023-05-26 21:47:00.823 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 2234.5737ms
+2023-05-26 21:47:00.834 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 21:47:00.940 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 4108.9535ms
+2023-05-26 21:47:19.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 21:47:19.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.5337ms
+2023-05-26 22:01:09.929 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:01:09.940 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:01:09.948 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:01:09.955 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:01:09.977 +05:30 [INF] Executed ViewResult - view Index executed in 27.54ms.
+2023-05-26 22:01:09.977 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 28.7618ms
+2023-05-26 22:01:09.977 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:01:09.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 48.6246ms
+2023-05-26 22:01:10.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:01:10.113 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5877ms
+2023-05-26 22:08:57.712 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 22:08:58.261 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-26 22:08:58.293 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 22:08:58.293 +05:30 [INF] Hosting environment: Development
+2023-05-26 22:08:58.293 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-26 22:09:01.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:09:01.628 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-26 22:09:02.146 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:09:02.194 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:09:02.262 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:09:02.903 +05:30 [INF] Executed ViewResult - view Index executed in 652.941ms.
+2023-05-26 22:09:02.907 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 712.0159ms
+2023-05-26 22:09:02.907 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:09:02.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1753.7487ms
+2023-05-26 22:09:03.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:09:03.121 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.7605ms
+2023-05-26 22:09:06.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-05-26 22:09:06.392 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:09:06.396 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:09:06.406 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-26 22:09:06.643 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 240.7648ms.
+2023-05-26 22:09:06.644 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 247.8662ms
+2023-05-26 22:09:06.644 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:09:06.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 200 - text/html;+charset=utf-8 268.4255ms
+2023-05-26 22:09:06.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - -
+2023-05-26 22:09:06.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - -
+2023-05-26 22:09:06.987 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - - - 404 0 - 26.1457ms
+2023-05-26 22:09:06.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:09:06.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6147ms
+2023-05-26 22:09:06.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - -
+2023-05-26 22:09:06.991 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - - - 404 0 - 2.8391ms
+2023-05-26 22:09:06.992 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - -
+2023-05-26 22:09:06.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - - - 404 0 - 1.2839ms
+2023-05-26 22:09:06.995 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - -
+2023-05-26 22:09:06.998 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - - - 404 0 - 3.0666ms
+2023-05-26 22:09:07.029 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - - - 404 0 - 69.1525ms
+2023-05-26 22:09:10.642 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239
+2023-05-26 22:09:10.642 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-05-26 22:09:10.737 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AdminLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:09:13.025 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-26 22:09:13.161 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-26 22:09:13.196 +05:30 [INF] Executed ViewResult - view Profile executed in 37.0716ms.
+2023-05-26 22:09:13.196 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement) in 2458.9978ms
+2023-05-26 22:09:13.196 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-05-26 22:09:13.215 +05:30 [INF] Session started; Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a, Id:d2c65543-0eda-e9e7-0c8d-a77e95adfbd9
+2023-05-26 22:09:13.232 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 2590.1205ms
+2023-05-26 22:09:13.344 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:09:13.344 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2360ms
+2023-05-26 22:09:15.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-05-26 22:09:15.109 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:09:15.112 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:09:15.793 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:09:16.102 +05:30 [INF] Executed ViewResult - view Create executed in 310.2676ms.
+2023-05-26 22:09:16.103 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 990.7793ms
+2023-05-26 22:09:16.103 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:09:16.110 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 1021.6056ms
+2023-05-26 22:09:16.267 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:09:16.267 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2951ms
+2023-05-26 22:11:48.847 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryWCRwkfffX6aoepG5 1495256
+2023-05-26 22:11:48.901 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:11:48.916 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:11:52.885 +05:30 [INF] Executed DbCommand (159ms) [Parameters=[@p0='?' (DbType = Double), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Double), @p7='?' (Size = 20), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 20), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employeess] ([Aadhaar], [Address], [DateofBirth], [EmployeePackage], [Experience], [Gender], [MobileNumber], [Name], [Password], [ProfilePicture], [TeamName], [UserID])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-05-26 22:11:53.080 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData.
+2023-05-26 22:11:53.082 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 4165.7614ms
+2023-05-26 22:11:53.083 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:11:53.104 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryWCRwkfffX6aoepG5 1495256 - 302 0 - 4256.9637ms
+2023-05-26 22:11:53.114 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:11:53.119 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:11:53.128 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:11:54.120 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:11:54.288 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:11:54.348 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:11:54.430 +05:30 [INF] Executed ViewResult - view Index executed in 87.3905ms.
+2023-05-26 22:11:54.430 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 1301.9912ms
+2023-05-26 22:11:54.430 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:11:54.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 1317.8649ms
+2023-05-26 22:11:54.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - -
+2023-05-26 22:11:54.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:11:54.650 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2218ms
+2023-05-26 22:11:54.651 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/8f4a4507-b829-443c-88f7-dce2454c2b9f .jpg - -
+2023-05-26 22:11:54.662 +05:30 [INF] The file /images/8f4a4507-b829-443c-88f7-dce2454c2b9f .jpg was not modified
+2023-05-26 22:11:54.663 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/8f4a4507-b829-443c-88f7-dce2454c2b9f .jpg - - - 304 - image/jpeg 12.0241ms
+2023-05-26 22:11:54.828 +05:30 [INF] Sending file. Request path: '/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg'
+2023-05-26 22:11:54.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - - - 200 1493490 image/jpeg 179.5282ms
+2023-05-26 22:12:57.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:12:57.141 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:12:57.167 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:12:57.221 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:12:57.274 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:12:57.279 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:12:57.316 +05:30 [INF] Executed ViewResult - view Index executed in 40.9218ms.
+2023-05-26 22:12:57.322 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 155.4112ms
+2023-05-26 22:12:57.323 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:12:57.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 200.0124ms
+2023-05-26 22:12:57.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:12:57.442 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2554ms
+2023-05-26 22:12:57.443 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - -
+2023-05-26 22:12:57.444 +05:30 [INF] The file /images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg was not modified
+2023-05-26 22:12:57.444 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - - - 304 - image/jpeg 1.7018ms
+2023-05-26 22:13:03.333 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-05-26 22:13:03.342 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:13:03.358 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:03.363 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:13:03.379 +05:30 [INF] Executed ViewResult - view Create executed in 20.3027ms.
+2023-05-26 22:13:03.380 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 21.1101ms
+2023-05-26 22:13:03.380 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:13:03.380 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 46.8611ms
+2023-05-26 22:13:03.477 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:13:03.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2517ms
+2023-05-26 22:13:08.352 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary7IoNqZ4ubfCEJ7Bc 1495256
+2023-05-26 22:13:08.385 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:13:08.413 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:08.513 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Double), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Double), @p7='?' (Size = 20), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 20), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employeess] ([Aadhaar], [Address], [DateofBirth], [EmployeePackage], [Experience], [Gender], [MobileNumber], [Name], [Password], [ProfilePicture], [TeamName], [UserID])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-05-26 22:13:08.665 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData.
+2023-05-26 22:13:08.666 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 253.231ms
+2023-05-26 22:13:08.667 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:13:08.670 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary7IoNqZ4ubfCEJ7Bc 1495256 - 302 0 - 317.9827ms
+2023-05-26 22:13:08.719 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:13:08.720 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:13:08.722 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:08.786 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:13:08.833 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:13:08.861 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:13:08.893 +05:30 [INF] Executed ViewResult - view Index executed in 32.03ms.
+2023-05-26 22:13:08.893 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 170.911ms
+2023-05-26 22:13:08.894 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:13:08.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 174.6032ms
+2023-05-26 22:13:09.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - -
+2023-05-26 22:13:09.064 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:13:09.064 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3429ms
+2023-05-26 22:13:09.067 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - -
+2023-05-26 22:13:09.068 +05:30 [INF] The file /images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg was not modified
+2023-05-26 22:13:09.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/50c4dd6b-66e6-449c-af34-4fb5d55aabdc .jpg - - - 304 - image/jpeg 0.7921ms
+2023-05-26 22:13:09.088 +05:30 [INF] Sending file. Request path: '/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\4883f677-a3da-40bf-9988-a0593032f463 .jpg'
+2023-05-26 22:13:09.088 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - - - 200 1493490 image/jpeg 27.5728ms
+2023-05-26 22:13:14.928 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Delete/6 - -
+2023-05-26 22:13:14.929 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Delete (IdentityManagement)'
+2023-05-26 22:13:14.949 +05:30 [INF] Route matched with {action = "Delete", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:15.146 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[ID] = @__id_0
+2023-05-26 22:13:15.219 +05:30 [INF] Executing ViewResult, running view Delete.
+2023-05-26 22:13:15.639 +05:30 [INF] Executed ViewResult - view Delete executed in 483.4016ms.
+2023-05-26 22:13:15.640 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Delete (IdentityManagement) in 690.4527ms
+2023-05-26 22:13:15.640 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Delete (IdentityManagement)'
+2023-05-26 22:13:15.640 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Delete/6 - - - 200 - text/html;+charset=utf-8 711.3673ms
+2023-05-26 22:13:15.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:13:15.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2640ms
+2023-05-26 22:13:18.423 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Delete/6 application/x-www-form-urlencoded 230
+2023-05-26 22:13:18.424 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.DeleteConfirmed (IdentityManagement)'
+2023-05-26 22:13:18.442 +05:30 [INF] Route matched with {action = "Delete", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:18.705 +05:30 [INF] Executed DbCommand (149ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[ID] = @__p_0
+2023-05-26 22:13:18.960 +05:30 [INF] Executed DbCommand (197ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Employeess]
+OUTPUT 1
+WHERE [ID] = @p0;
+2023-05-26 22:13:19.034 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData.
+2023-05-26 22:13:19.034 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.DeleteConfirmed (IdentityManagement) in 592.2742ms
+2023-05-26 22:13:19.034 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.DeleteConfirmed (IdentityManagement)'
+2023-05-26 22:13:19.035 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Delete/6 application/x-www-form-urlencoded 230 - 302 0 - 612.0703ms
+2023-05-26 22:13:19.042 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:13:19.043 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:13:19.046 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:13:19.057 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:13:19.070 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:13:19.070 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:13:19.110 +05:30 [INF] Executed ViewResult - view Index executed in 39.2911ms.
+2023-05-26 22:13:19.110 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 63.2109ms
+2023-05-26 22:13:19.110 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:13:19.110 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 68.1391ms
+2023-05-26 22:13:19.313 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:13:19.313 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1805ms
+2023-05-26 22:13:19.313 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - -
+2023-05-26 22:13:19.314 +05:30 [INF] The file /images/4883f677-a3da-40bf-9988-a0593032f463 .jpg was not modified
+2023-05-26 22:13:19.314 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - - - 304 - image/jpeg 0.5526ms
+2023-05-26 22:14:53.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:14:53.779 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:14:53.796 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:14:53.833 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:14:53.841 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:14:53.848 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:14:53.865 +05:30 [INF] Executed ViewResult - view Index executed in 23.1905ms.
+2023-05-26 22:14:53.865 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 68.8859ms
+2023-05-26 22:14:53.865 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:14:53.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 88.1461ms
+2023-05-26 22:14:54.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:14:54.040 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2204ms
+2023-05-26 22:14:54.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - -
+2023-05-26 22:14:54.041 +05:30 [INF] The file /images/4883f677-a3da-40bf-9988-a0593032f463 .jpg was not modified
+2023-05-26 22:14:54.041 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - - - 304 - image/jpeg 0.6720ms
+2023-05-26 22:15:00.231 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:15:00.232 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:15:00.244 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:15:00.339 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:15:00.512 +05:30 [INF] Executed DbCommand (161ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:15:00.518 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:15:00.529 +05:30 [INF] Executed ViewResult - view Index executed in 15.982ms.
+2023-05-26 22:15:00.529 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 285.0866ms
+2023-05-26 22:15:00.529 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:15:00.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 298.6853ms
+2023-05-26 22:15:01.012 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:15:01.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2190ms
+2023-05-26 22:15:49.665 +05:30 [INF] Application is shutting down...
+2023-05-26 22:26:13.142 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 22:26:13.567 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-26 22:26:13.622 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 22:26:13.630 +05:30 [INF] Hosting environment: Development
+2023-05-26 22:26:13.630 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-26 22:26:15.622 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:26:15.921 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-26 22:26:16.348 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:26:16.393 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:26:16.470 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:26:17.102 +05:30 [INF] Executed ViewResult - view Index executed in 630.7658ms.
+2023-05-26 22:26:17.140 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 744.6533ms
+2023-05-26 22:26:17.140 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:26:17.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:26:17.385 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 15.1625ms
+2023-05-26 22:26:17.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1926.8415ms
+2023-05-26 22:26:22.363 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-05-26 22:26:22.379 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:26:22.384 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:26:22.391 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Profile.
+2023-05-26 22:26:22.392 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 7.5592ms
+2023-05-26 22:26:22.392 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:26:22.394 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 302 0 - 29.5823ms
+2023-05-26 22:26:22.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/Profile - -
+2023-05-26 22:26:22.483 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.Profile (IdentityManagement)'
+2023-05-26 22:26:22.484 +05:30 [INF] Route matched with {action = "Profile", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:26:22.501 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-26 22:26:22.540 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:26:22.549 +05:30 [INF] Executed ViewResult - view Profile executed in 63.69ms.
+2023-05-26 22:26:22.549 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.Profile (IdentityManagement) in 64.613ms
+2023-05-26 22:26:22.549 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.Profile (IdentityManagement)'
+2023-05-26 22:26:22.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/Profile - - - 200 - text/html;+charset=utf-8 107.7705ms
+2023-05-26 22:26:22.722 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:26:22.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7066ms
+2023-05-26 22:26:24.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-05-26 22:26:24.791 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:26:24.794 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:26:25.453 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:26:25.496 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:26:25.779 +05:30 [INF] Executed ViewResult - view Create executed in 328.3375ms.
+2023-05-26 22:26:25.780 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 983.4349ms
+2023-05-26 22:26:25.780 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:26:25.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 1008.4222ms
+2023-05-26 22:26:25.904 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:26:25.904 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2859ms
+2023-05-26 22:27:25.499 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryZ4EisLjbrskyKNCW 1495256
+2023-05-26 22:27:25.518 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:27:25.649 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:27:26.011 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:27:26.013 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:27:26.028 +05:30 [INF] Executed ViewResult - view Create executed in 17.4011ms.
+2023-05-26 22:27:26.030 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 380.728ms
+2023-05-26 22:27:26.031 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:27:26.145 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryZ4EisLjbrskyKNCW 1495256 - 200 - text/html;+charset=utf-8 646.1701ms
+2023-05-26 22:27:26.216 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:27:26.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3401ms
+2023-05-26 22:27:34.805 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNm4v7TU2W3Qab4JQ 1495256
+2023-05-26 22:27:34.806 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:27:34.807 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:27:34.905 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:27:34.907 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:27:34.917 +05:30 [INF] Executed ViewResult - view Create executed in 11.9702ms.
+2023-05-26 22:27:34.917 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 110.2541ms
+2023-05-26 22:27:34.917 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:27:34.919 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNm4v7TU2W3Qab4JQ 1495256 - 200 - text/html;+charset=utf-8 113.6982ms
+2023-05-26 22:27:35.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:27:35.021 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1971ms
+2023-05-26 22:28:49.267 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256
+2023-05-26 22:28:49.268 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:28:49.268 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:28:49.354 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:28:49.355 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:28:49.357 +05:30 [INF] Executed ViewResult - view Create executed in 2.6134ms.
+2023-05-26 22:28:49.357 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 89.1743ms
+2023-05-26 22:28:49.357 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:28:49.372 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256 - 200 - text/html;+charset=utf-8 102.6559ms
+2023-05-26 22:28:49.454 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:28:49.456 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 1.6388ms
+2023-05-26 22:31:40.095 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256
+2023-05-26 22:31:40.095 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:31:40.148 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:31:40.312 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:31:40.343 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:31:40.351 +05:30 [INF] Executed ViewResult - view Create executed in 40.687ms.
+2023-05-26 22:31:40.351 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 202.7313ms
+2023-05-26 22:31:40.351 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:31:40.354 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256 - 200 - text/html;+charset=utf-8 259.5107ms
+2023-05-26 22:31:40.472 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:31:40.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3383ms
+2023-05-26 22:31:51.363 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256
+2023-05-26 22:31:51.364 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:31:51.386 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:31:51.451 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:31:51.458 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:31:51.489 +05:30 [INF] Executed ViewResult - view Create executed in 40.3538ms.
+2023-05-26 22:31:51.489 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 103.467ms
+2023-05-26 22:31:51.489 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:31:51.495 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryzpa7hoJKKorBePEy 1495256 - 200 - text/html;+charset=utf-8 132.2106ms
+2023-05-26 22:31:51.600 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:31:51.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2442ms
+2023-05-26 22:32:03.491 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNBSJeWAb84vmMk6o 1495256
+2023-05-26 22:32:03.509 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:03.509 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:32:03.552 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:32:03.553 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:32:03.556 +05:30 [INF] Executed ViewResult - view Create executed in 3.1894ms.
+2023-05-26 22:32:03.556 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 46.7219ms
+2023-05-26 22:32:03.556 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:03.650 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNBSJeWAb84vmMk6o 1495256 - 200 - text/html;+charset=utf-8 159.0233ms
+2023-05-26 22:32:03.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:32:03.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3290ms
+2023-05-26 22:32:06.891 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNBSJeWAb84vmMk6o 1495256
+2023-05-26 22:32:06.892 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:06.892 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:32:06.955 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:32:06.955 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:32:06.958 +05:30 [INF] Executed ViewResult - view Create executed in 3.3919ms.
+2023-05-26 22:32:06.958 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 65.7119ms
+2023-05-26 22:32:06.958 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:06.960 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNBSJeWAb84vmMk6o 1495256 - 200 - text/html;+charset=utf-8 68.8993ms
+2023-05-26 22:32:07.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:32:07.087 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2118ms
+2023-05-26 22:32:22.432 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256
+2023-05-26 22:32:22.433 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:22.433 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:32:22.517 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:32:22.517 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:32:22.527 +05:30 [INF] Executed ViewResult - view Create executed in 10.1817ms.
+2023-05-26 22:32:22.527 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 93.8657ms
+2023-05-26 22:32:22.527 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:32:22.529 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256 - 200 - text/html;+charset=utf-8 97.7773ms
+2023-05-26 22:32:22.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:32:22.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3425ms
+2023-05-26 22:33:38.485 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256
+2023-05-26 22:33:38.486 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:38.527 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:33:38.618 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:33:38.625 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:33:38.633 +05:30 [INF] Executed ViewResult - view Create executed in 19.6519ms.
+2023-05-26 22:33:38.633 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 105.6041ms
+2023-05-26 22:33:38.633 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:38.636 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256 - 200 - text/html;+charset=utf-8 151.3414ms
+2023-05-26 22:33:38.703 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:33:38.703 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2088ms
+2023-05-26 22:33:51.509 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256
+2023-05-26 22:33:51.536 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:51.536 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:33:51.566 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:33:51.566 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:33:51.568 +05:30 [INF] Executed ViewResult - view Create executed in 2.4816ms.
+2023-05-26 22:33:51.569 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 32.7491ms
+2023-05-26 22:33:51.569 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:51.570 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryExaKAbhLvI11bwIz 1495256 - 200 - text/html;+charset=utf-8 60.6076ms
+2023-05-26 22:33:51.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:33:51.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8330ms
+2023-05-26 22:33:57.705 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256
+2023-05-26 22:33:57.706 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:57.706 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:33:57.819 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:33:57.821 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:33:57.824 +05:30 [INF] Executed ViewResult - view Create executed in 4.4762ms.
+2023-05-26 22:33:57.824 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 117.4339ms
+2023-05-26 22:33:57.824 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:33:57.825 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256 - 200 - text/html;+charset=utf-8 120.6740ms
+2023-05-26 22:33:57.954 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:33:57.954 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2236ms
+2023-05-26 22:34:02.607 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256
+2023-05-26 22:34:02.608 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:02.608 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:34:02.660 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:34:02.661 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:34:02.663 +05:30 [INF] Executed ViewResult - view Create executed in 2.5041ms.
+2023-05-26 22:34:02.663 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 54.5701ms
+2023-05-26 22:34:02.663 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:02.664 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256 - 200 - text/html;+charset=utf-8 57.1817ms
+2023-05-26 22:34:02.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:34:02.788 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2503ms
+2023-05-26 22:34:06.732 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256
+2023-05-26 22:34:06.737 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:06.738 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:34:06.802 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:34:06.803 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:34:06.807 +05:30 [INF] Executed ViewResult - view Create executed in 4.843ms.
+2023-05-26 22:34:06.807 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 69.6615ms
+2023-05-26 22:34:06.807 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:06.810 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256 - 200 - text/html;+charset=utf-8 77.1664ms
+2023-05-26 22:34:06.910 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:34:06.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2073ms
+2023-05-26 22:34:34.817 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256
+2023-05-26 22:34:34.818 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:34.833 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:34:34.928 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:34:34.987 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:34:35.012 +05:30 [INF] Executed ViewResult - view Create executed in 85.2073ms.
+2023-05-26 22:34:35.012 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 178.5781ms
+2023-05-26 22:34:35.012 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:34:35.015 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256 - 200 - text/html;+charset=utf-8 197.4766ms
+2023-05-26 22:34:35.152 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:34:35.153 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2076ms
+2023-05-26 22:35:37.637 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256
+2023-05-26 22:35:37.638 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:37.699 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:35:37.799 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:35:37.805 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:35:37.822 +05:30 [INF] Executed ViewResult - view Create executed in 25.2598ms.
+2023-05-26 22:35:37.822 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 123.0733ms
+2023-05-26 22:35:37.822 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:37.824 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryafBTiQvpbovn3O0Q 1495256 - 200 - text/html;+charset=utf-8 186.3444ms
+2023-05-26 22:35:37.953 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:35:37.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2312ms
+2023-05-26 22:35:47.192 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryraA4e6zhT3ywzJLR 1495256
+2023-05-26 22:35:47.254 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:47.255 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:35:47.321 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:35:47.321 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:35:47.324 +05:30 [INF] Executed ViewResult - view Create executed in 2.7005ms.
+2023-05-26 22:35:47.324 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 68.4945ms
+2023-05-26 22:35:47.324 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:47.337 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryraA4e6zhT3ywzJLR 1495256 - 200 - text/html;+charset=utf-8 145.4144ms
+2023-05-26 22:35:47.432 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:35:47.433 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2260ms
+2023-05-26 22:35:54.276 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryHVLT78dAXI8r2gAt 1495256
+2023-05-26 22:35:54.277 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:54.277 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:35:54.323 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:35:54.323 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:35:54.325 +05:30 [INF] Executed ViewResult - view Create executed in 1.9292ms.
+2023-05-26 22:35:54.325 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 47.4272ms
+2023-05-26 22:35:54.325 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:35:54.327 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryHVLT78dAXI8r2gAt 1495256 - 200 - text/html;+charset=utf-8 50.3317ms
+2023-05-26 22:35:54.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:35:54.397 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4301ms
+2023-05-26 22:35:56.319 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Home/logOut - -
+2023-05-26 22:35:56.320 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-05-26 22:35:56.325 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:35:56.338 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-26 22:35:56.339 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-26 22:35:56.339 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.logOut (IdentityManagement) in 13.9629ms
+2023-05-26 22:35:56.340 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-05-26 22:35:56.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Home/logOut - - - 302 0 - 20.5835ms
+2023-05-26 22:35:56.363 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:35:56.364 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:35:56.380 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:35:56.385 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:35:56.393 +05:30 [INF] Executed ViewResult - view Index executed in 12.4867ms.
+2023-05-26 22:35:56.394 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 13.1846ms
+2023-05-26 22:35:56.394 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:35:56.394 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 30.6438ms
+2023-05-26 22:35:56.548 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:35:56.548 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1720ms
+2023-05-26 22:35:59.512 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-26 22:35:59.513 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-26 22:35:59.514 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-26 22:35:59.523 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-26 22:35:59.643 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 123.698ms.
+2023-05-26 22:35:59.691 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 176.6951ms
+2023-05-26 22:35:59.692 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-26 22:35:59.692 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 180.1871ms
+2023-05-26 22:35:59.804 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:35:59.804 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2390ms
+2023-05-26 22:35:59.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-26 22:35:59.823 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 12.8997ms
+2023-05-26 22:36:10.826 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:36:10.827 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:36:10.828 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:36:10.828 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:36:10.829 +05:30 [INF] Executed ViewResult - view Index executed in 0.6121ms.
+2023-05-26 22:36:10.829 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 0.9478ms
+2023-05-26 22:36:10.829 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:36:10.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 3.5643ms
+2023-05-26 22:36:10.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:36:10.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1729ms
+2023-05-26 22:36:12.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-05-26 22:36:12.053 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:36:12.054 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:36:12.055 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:36:12.065 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-26 22:36:12.137 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 76.3671ms.
+2023-05-26 22:36:12.137 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 82.2414ms
+2023-05-26 22:36:12.137 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:36:12.137 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 200 - text/html;+charset=utf-8 84.4299ms
+2023-05-26 22:36:12.291 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - -
+2023-05-26 22:36:12.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - - - 404 0 - 10.8016ms
+2023-05-26 22:36:12.302 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - -
+2023-05-26 22:36:12.304 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - - - 404 0 - 1.1884ms
+2023-05-26 22:36:12.304 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - -
+2023-05-26 22:36:12.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - - - 404 0 - 0.8473ms
+2023-05-26 22:36:12.305 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - -
+2023-05-26 22:36:12.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - - - 404 0 - 3.1991ms
+2023-05-26 22:36:12.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - -
+2023-05-26 22:36:12.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - - - 404 0 - 0.9692ms
+2023-05-26 22:36:12.311 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:36:12.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1204ms
+2023-05-26 22:36:25.926 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239
+2023-05-26 22:36:25.933 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-05-26 22:36:25.973 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AdminLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:36:27.091 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-26 22:36:27.166 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:36:27.167 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-26 22:36:27.170 +05:30 [INF] Executed ViewResult - view Profile executed in 3.8372ms.
+2023-05-26 22:36:27.170 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement) in 1197.426ms
+2023-05-26 22:36:27.170 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-05-26 22:36:27.189 +05:30 [INF] Session started; Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a, Id:db416350-0d4f-a279-6d71-bf423dec57d6
+2023-05-26 22:36:27.190 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 1263.2058ms
+2023-05-26 22:36:27.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:36:27.304 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2767ms
+2023-05-26 22:36:30.522 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-05-26 22:36:30.524 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:36:30.526 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:36:30.526 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:36:30.539 +05:30 [INF] Executed ViewResult - view Create executed in 12.453ms.
+2023-05-26 22:36:30.539 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 13.2939ms
+2023-05-26 22:36:30.540 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:36:30.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 18.1976ms
+2023-05-26 22:36:30.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:36:30.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2773ms
+2023-05-26 22:37:09.911 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarydk4KtoDp9ZaO98B9 1495256
+2023-05-26 22:37:09.912 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:09.912 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:37:09.957 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:37:09.959 +05:30 [INF] Executed ViewResult - view Create executed in 2.3938ms.
+2023-05-26 22:37:09.959 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 46.9366ms
+2023-05-26 22:37:09.959 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:09.960 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarydk4KtoDp9ZaO98B9 1495256 - 200 - text/html;+charset=utf-8 49.4475ms
+2023-05-26 22:37:10.112 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:37:10.113 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1947ms
+2023-05-26 22:37:40.410 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarydk4KtoDp9ZaO98B9 1495256
+2023-05-26 22:37:40.411 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:40.448 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:37:40.509 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:37:40.527 +05:30 [INF] Executed ViewResult - view Create executed in 19.4832ms.
+2023-05-26 22:37:40.527 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 79.2111ms
+2023-05-26 22:37:40.527 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:40.543 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarydk4KtoDp9ZaO98B9 1495256 - 200 - text/html;+charset=utf-8 133.1397ms
+2023-05-26 22:37:40.621 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:37:40.621 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1691ms
+2023-05-26 22:37:48.077 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryB6CPtv6pbEaxEAmv 1773
+2023-05-26 22:37:48.098 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:48.098 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:37:48.104 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:37:48.107 +05:30 [INF] Executed ViewResult - view Create executed in 2.312ms.
+2023-05-26 22:37:48.107 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 8.7156ms
+2023-05-26 22:37:48.107 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:48.107 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryB6CPtv6pbEaxEAmv 1773 - 200 - text/html;+charset=utf-8 30.3590ms
+2023-05-26 22:37:48.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:37:48.264 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2017ms
+2023-05-26 22:37:54.599 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNoM6naMZEKq9hk8W 1495256
+2023-05-26 22:37:54.600 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:54.601 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:37:54.662 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:37:54.665 +05:30 [INF] Executed ViewResult - view Create executed in 2.5639ms.
+2023-05-26 22:37:54.665 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 63.7386ms
+2023-05-26 22:37:54.665 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:37:54.666 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryNoM6naMZEKq9hk8W 1495256 - 200 - text/html;+charset=utf-8 67.2928ms
+2023-05-26 22:37:54.800 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:37:54.800 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1848ms
+2023-05-26 22:40:08.618 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryOHftIbMHf2gBFw6O 1495256
+2023-05-26 22:40:08.618 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:08.619 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:40:08.740 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:40:08.742 +05:30 [INF] Executed ViewResult - view Create executed in 2.4504ms.
+2023-05-26 22:40:08.742 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 123.8526ms
+2023-05-26 22:40:08.743 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:08.744 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryOHftIbMHf2gBFw6O 1495256 - 200 - text/html;+charset=utf-8 125.8516ms
+2023-05-26 22:40:08.829 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:40:08.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2338ms
+2023-05-26 22:40:42.824 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryOHftIbMHf2gBFw6O 1495256
+2023-05-26 22:40:42.825 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:42.847 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:40:43.271 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:40:43.309 +05:30 [INF] Executed ViewResult - view Create executed in 40.7461ms.
+2023-05-26 22:40:43.310 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 461.0248ms
+2023-05-26 22:40:43.310 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:43.316 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryOHftIbMHf2gBFw6O 1495256 - 200 - text/html;+charset=utf-8 491.5033ms
+2023-05-26 22:40:43.460 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:40:43.464 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.5768ms
+2023-05-26 22:40:45.657 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryuWf2oATb8GcfqFai 1773
+2023-05-26 22:40:45.657 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:45.676 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:40:45.687 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:40:45.706 +05:30 [INF] Executed ViewResult - view Create executed in 21.0236ms.
+2023-05-26 22:40:45.706 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 30.4164ms
+2023-05-26 22:40:45.706 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:45.706 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryuWf2oATb8GcfqFai 1773 - 200 - text/html;+charset=utf-8 49.9487ms
+2023-05-26 22:40:45.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:40:45.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1748ms
+2023-05-26 22:40:58.961 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryuWf2oATb8GcfqFai 1773
+2023-05-26 22:40:58.962 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:58.982 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:40:58.991 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:40:59.031 +05:30 [INF] Executed ViewResult - view Create executed in 42.0857ms.
+2023-05-26 22:40:59.031 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 48.7984ms
+2023-05-26 22:40:59.031 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:40:59.032 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryuWf2oATb8GcfqFai 1773 - 200 - text/html;+charset=utf-8 70.3770ms
+2023-05-26 22:40:59.205 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:40:59.206 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1551ms
+2023-05-26 22:41:01.128 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarytmgXvKXB9IemYNEq 1773
+2023-05-26 22:41:01.162 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:01.162 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:41:01.164 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:41:01.166 +05:30 [INF] Executed ViewResult - view Create executed in 2.0805ms.
+2023-05-26 22:41:01.166 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 4.0078ms
+2023-05-26 22:41:01.167 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:01.167 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarytmgXvKXB9IemYNEq 1773 - 200 - text/html;+charset=utf-8 39.2200ms
+2023-05-26 22:41:01.294 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:41:01.294 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1627ms
+2023-05-26 22:41:05.069 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryHMBmp8SpCOB9B6lA 1773
+2023-05-26 22:41:05.074 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:05.074 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:41:05.079 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:41:05.082 +05:30 [INF] Executed ViewResult - view Create executed in 2.3549ms.
+2023-05-26 22:41:05.082 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 7.9293ms
+2023-05-26 22:41:05.082 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:05.083 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryHMBmp8SpCOB9B6lA 1773 - 200 - text/html;+charset=utf-8 14.1310ms
+2023-05-26 22:41:05.173 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:41:05.174 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1580ms
+2023-05-26 22:41:17.599 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary8NxbLZy7iFegSCwU 1495256
+2023-05-26 22:41:17.600 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:17.600 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:41:21.530 +05:30 [INF] Executed DbCommand (168ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:21.687 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:21.752 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__ui_Name_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:21.773 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:41:21.776 +05:30 [INF] Executed ViewResult - view Create executed in 3.2505ms.
+2023-05-26 22:41:21.776 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 4176.2657ms
+2023-05-26 22:41:21.776 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:21.856 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary8NxbLZy7iFegSCwU 1495256 - 200 - text/html;+charset=utf-8 4257.2192ms
+2023-05-26 22:41:21.925 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:41:21.925 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1592ms
+2023-05-26 22:41:42.949 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary2jkPHNoGUiDAEcJj 1495256
+2023-05-26 22:41:42.950 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:42.950 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:41:43.026 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:43.065 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:43.080 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ui_Name_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:41:43.082 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:41:43.086 +05:30 [INF] Executed ViewResult - view Create executed in 4.0946ms.
+2023-05-26 22:41:43.201 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 250.9568ms
+2023-05-26 22:41:43.202 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:43.206 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary2jkPHNoGUiDAEcJj 1495256 - 200 - text/html;+charset=utf-8 257.7996ms
+2023-05-26 22:41:43.233 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:41:43.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1605ms
+2023-05-26 22:41:59.753 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryxrdrBBfSxGsJTAQm 1780
+2023-05-26 22:41:59.754 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:59.754 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:41:59.755 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:41:59.766 +05:30 [INF] Executed ViewResult - view Create executed in 10.7667ms.
+2023-05-26 22:41:59.767 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 12.6183ms
+2023-05-26 22:41:59.767 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:41:59.767 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryxrdrBBfSxGsJTAQm 1780 - 200 - text/html;+charset=utf-8 14.0694ms
+2023-05-26 22:41:59.906 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:41:59.907 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1555ms
+2023-05-26 22:42:03.227 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryxVsnR68w6mVftoot 1780
+2023-05-26 22:42:03.228 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:42:03.228 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:42:03.234 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:42:03.237 +05:30 [INF] Executed ViewResult - view Create executed in 3.0453ms.
+2023-05-26 22:42:03.237 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 8.784ms
+2023-05-26 22:42:03.237 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:42:03.237 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryxVsnR68w6mVftoot 1780 - 200 - text/html;+charset=utf-8 10.4965ms
+2023-05-26 22:42:03.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:42:03.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1655ms
+2023-05-26 22:42:14.081 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryBEgba53DH53QfycP 1495263
+2023-05-26 22:42:14.082 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:42:14.082 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:42:14.325 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:42:14.394 +05:30 [INF] Executed DbCommand (68ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:42:14.416 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__ui_Name_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:42:15.010 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Double), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Double), @p7='?' (Size = 20), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 20), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employeess] ([Aadhaar], [Address], [DateofBirth], [EmployeePackage], [Experience], [Gender], [MobileNumber], [Name], [Password], [ProfilePicture], [TeamName], [UserID])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-05-26 22:42:15.206 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData.
+2023-05-26 22:42:15.206 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 1123.2969ms
+2023-05-26 22:42:15.206 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:42:15.207 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryBEgba53DH53QfycP 1495263 - 302 0 - 1126.1696ms
+2023-05-26 22:42:15.213 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:42:15.213 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:42:15.227 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:42:15.408 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:42:15.595 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:42:15.631 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:42:15.750 +05:30 [INF] Executed ViewResult - view Index executed in 121.4078ms.
+2023-05-26 22:42:15.750 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 523.5926ms
+2023-05-26 22:42:15.751 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:42:15.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 538.0022ms
+2023-05-26 22:42:15.855 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:42:15.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1660ms
+2023-05-26 22:42:15.856 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - -
+2023-05-26 22:42:15.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - -
+2023-05-26 22:42:15.925 +05:30 [INF] The file /images/4883f677-a3da-40bf-9988-a0593032f463 .jpg was not modified
+2023-05-26 22:42:15.926 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - - - 304 - image/jpeg 23.4179ms
+2023-05-26 22:42:16.028 +05:30 [INF] Sending file. Request path: '/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg'
+2023-05-26 22:42:16.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - - - 200 1493490 image/jpeg 172.4520ms
+2023-05-26 22:42:34.051 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:42:34.051 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:42:34.089 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:42:34.099 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:42:34.140 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:42:34.152 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:42:34.169 +05:30 [INF] Executed ViewResult - view Index executed in 20.2287ms.
+2023-05-26 22:42:34.169 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 79.791ms
+2023-05-26 22:42:34.169 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:42:34.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 119.0454ms
+2023-05-26 22:42:34.247 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:42:34.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1934ms
+2023-05-26 22:42:34.259 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - -
+2023-05-26 22:42:34.262 +05:30 [INF] The file /images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg was not modified
+2023-05-26 22:42:34.263 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - - - 304 - image/jpeg 3.9557ms
+2023-05-26 22:42:45.657 +05:30 [INF] Application is shutting down...
+2023-05-26 22:43:41.657 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 22:43:42.041 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-26 22:43:42.084 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 22:43:42.084 +05:30 [INF] Hosting environment: Development
+2023-05-26 22:43:42.085 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-26 22:43:44.831 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:43:45.051 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-26 22:43:45.386 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:43:45.441 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:43:45.521 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:43:45.985 +05:30 [INF] Executed ViewResult - view Index executed in 473.8952ms.
+2023-05-26 22:43:45.989 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 542.0052ms
+2023-05-26 22:43:45.989 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:43:46.036 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1313.6948ms
+2023-05-26 22:43:46.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:43:46.294 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 5.8384ms
+2023-05-26 22:43:57.451 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-05-26 22:43:57.487 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:43:57.490 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:43:57.506 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Profile.
+2023-05-26 22:43:57.507 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 16.986ms
+2023-05-26 22:43:57.508 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-26 22:43:57.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 302 0 - 56.8576ms
+2023-05-26 22:43:57.761 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/Profile - -
+2023-05-26 22:43:57.794 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.Profile (IdentityManagement)'
+2023-05-26 22:43:57.795 +05:30 [INF] Route matched with {action = "Profile", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-26 22:43:57.809 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-26 22:43:57.873 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:43:57.879 +05:30 [INF] Executed ViewResult - view Profile executed in 82.3102ms.
+2023-05-26 22:43:57.879 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.Profile (IdentityManagement) in 83.2379ms
+2023-05-26 22:43:57.879 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.Profile (IdentityManagement)'
+2023-05-26 22:43:57.879 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/Profile - - - 200 - text/html;+charset=utf-8 117.8258ms
+2023-05-26 22:43:58.324 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:43:58.325 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 3.0358ms
+2023-05-26 22:44:00.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-05-26 22:44:00.729 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:44:00.733 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:44:01.456 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:44:01.565 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:44:01.880 +05:30 [INF] Executed ViewResult - view Create executed in 426.4106ms.
+2023-05-26 22:44:01.880 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 1146.3931ms
+2023-05-26 22:44:01.880 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:44:01.990 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 1264.9824ms
+2023-05-26 22:44:02.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:44:02.091 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3046ms
+2023-05-26 22:44:56.784 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryiJi1MiVE4qzsB2PC 1495254
+2023-05-26 22:44:56.809 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:44:56.901 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:44:57.075 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:44:57.077 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:44:57.086 +05:30 [INF] Executed ViewResult - view Create executed in 11.1583ms.
+2023-05-26 22:44:57.088 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 187.0275ms
+2023-05-26 22:44:57.095 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:44:57.178 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryiJi1MiVE4qzsB2PC 1495254 - 200 - text/html;+charset=utf-8 394.1081ms
+2023-05-26 22:44:57.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:44:57.180 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2882ms
+2023-05-26 22:45:04.221 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryer1EW2kr3Th9k7sZ 1495254
+2023-05-26 22:45:04.222 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:45:04.223 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:45:04.299 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:45:04.302 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:45:04.307 +05:30 [INF] Executed ViewResult - view Create executed in 8.2546ms.
+2023-05-26 22:45:04.307 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 83.9123ms
+2023-05-26 22:45:04.307 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:45:04.317 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryer1EW2kr3Th9k7sZ 1495254 - 200 - text/html;+charset=utf-8 96.0409ms
+2023-05-26 22:45:04.409 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:45:04.409 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6034ms
+2023-05-26 22:45:27.046 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryGg1MerKtbhAmWfSZ 1495254
+2023-05-26 22:45:27.048 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:45:27.048 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:45:27.128 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:45:27.129 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:45:27.131 +05:30 [INF] Executed ViewResult - view Create executed in 2.8834ms.
+2023-05-26 22:45:27.133 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 84.914ms
+2023-05-26 22:45:27.133 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:45:27.150 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryGg1MerKtbhAmWfSZ 1495254 - 200 - text/html;+charset=utf-8 103.4034ms
+2023-05-26 22:45:27.228 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:45:27.228 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2170ms
+2023-05-26 22:46:16.087 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary2LUvu7bQ68Arqewu 1495254
+2023-05-26 22:46:16.088 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:16.089 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:16.134 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:16.134 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:16.138 +05:30 [INF] Executed ViewResult - view Create executed in 4.1237ms.
+2023-05-26 22:46:16.138 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 49.0763ms
+2023-05-26 22:46:16.138 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:16.139 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundary2LUvu7bQ68Arqewu 1495254 - 200 - text/html;+charset=utf-8 51.9521ms
+2023-05-26 22:46:16.305 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:16.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2281ms
+2023-05-26 22:46:23.207 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySOPnxDUECTpcqv8a 1495254
+2023-05-26 22:46:23.208 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:23.208 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:23.252 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:23.253 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:23.256 +05:30 [INF] Executed ViewResult - view Create executed in 6.6769ms.
+2023-05-26 22:46:23.257 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 48.1025ms
+2023-05-26 22:46:23.257 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:23.258 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySOPnxDUECTpcqv8a 1495254 - 200 - text/html;+charset=utf-8 51.3334ms
+2023-05-26 22:46:23.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:23.335 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7383ms
+2023-05-26 22:46:44.416 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySOPnxDUECTpcqv8a 1495254
+2023-05-26 22:46:44.419 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:44.451 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:44.547 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:44.568 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:44.591 +05:30 [INF] Executed ViewResult - view Create executed in 53.8326ms.
+2023-05-26 22:46:44.591 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 137.2432ms
+2023-05-26 22:46:44.591 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:44.592 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySOPnxDUECTpcqv8a 1495254 - 200 - text/html;+charset=utf-8 175.7875ms
+2023-05-26 22:46:44.967 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:44.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2409ms
+2023-05-26 22:46:52.979 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryEAbukmoH9FbrGjH0 1771
+2023-05-26 22:46:52.983 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:53.005 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:53.012 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:53.018 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:53.024 +05:30 [INF] Executed ViewResult - view Create executed in 16.3333ms.
+2023-05-26 22:46:53.024 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 18.7638ms
+2023-05-26 22:46:53.024 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:53.024 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryEAbukmoH9FbrGjH0 1771 - 200 - text/html;+charset=utf-8 45.2397ms
+2023-05-26 22:46:53.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:53.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6712ms
+2023-05-26 22:46:55.086 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarye75BcAwVYNYg71Oc 1771
+2023-05-26 22:46:55.102 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:55.103 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:55.104 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:55.104 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:55.106 +05:30 [INF] Executed ViewResult - view Create executed in 2.2231ms.
+2023-05-26 22:46:55.106 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 3.5804ms
+2023-05-26 22:46:55.106 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:55.108 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarye75BcAwVYNYg71Oc 1771 - 200 - text/html;+charset=utf-8 22.2801ms
+2023-05-26 22:46:55.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:55.255 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2705ms
+2023-05-26 22:46:56.723 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771
+2023-05-26 22:46:56.724 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:56.724 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:56.725 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:56.725 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:56.734 +05:30 [INF] Executed ViewResult - view Create executed in 8.7902ms.
+2023-05-26 22:46:56.734 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 9.826ms
+2023-05-26 22:46:56.734 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:56.735 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771 - 200 - text/html;+charset=utf-8 11.4225ms
+2023-05-26 22:46:56.822 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:56.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3087ms
+2023-05-26 22:46:58.437 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryrrDD9MYPSFRffAwb 1771
+2023-05-26 22:46:58.437 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:58.438 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:46:58.439 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:46:58.440 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:46:58.443 +05:30 [INF] Executed ViewResult - view Create executed in 3.2382ms.
+2023-05-26 22:46:58.443 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 4.9969ms
+2023-05-26 22:46:58.443 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:46:58.443 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryrrDD9MYPSFRffAwb 1771 - 200 - text/html;+charset=utf-8 6.3114ms
+2023-05-26 22:46:58.529 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:46:58.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2050ms
+2023-05-26 22:47:05.345 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySy81y8NpuTMAyRxm 1495254
+2023-05-26 22:47:05.346 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:47:05.347 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:47:09.573 +05:30 [INF] Executed DbCommand (148ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:09.691 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:09.756 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__ui_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:09.781 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:47:09.781 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:47:09.789 +05:30 [INF] Executed ViewResult - view Create executed in 8.051ms.
+2023-05-26 22:47:09.790 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 4427.1605ms
+2023-05-26 22:47:09.791 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:47:09.854 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundarySy81y8NpuTMAyRxm 1495254 - 200 - text/html;+charset=utf-8 4509.0691ms
+2023-05-26 22:47:09.976 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:47:09.976 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1899ms
+2023-05-26 22:47:33.175 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryfIWkJTknkJFBC6az 1495255
+2023-05-26 22:47:33.180 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:47:33.181 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:47:33.296 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:33.374 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:33.445 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[@__ui_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:47:34.721 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Double), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 20), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employeess] ([Aadhaar], [Address], [DateofBirth], [EmployeePackage], [Experience], [Gender], [MobileNumber], [Name], [Password], [ProfilePicture], [TeamName], [UserID])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-05-26 22:47:34.903 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData.
+2023-05-26 22:47:34.904 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 1722.919ms
+2023-05-26 22:47:34.904 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:47:34.906 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryfIWkJTknkJFBC6az 1495255 - 302 0 - 1730.0577ms
+2023-05-26 22:47:34.929 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData - -
+2023-05-26 22:47:34.930 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:47:34.938 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:47:35.293 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-05-26 22:47:35.554 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-05-26 22:47:35.586 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:47:35.652 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:47:35.676 +05:30 [INF] Executed ViewResult - view Index executed in 91.8185ms.
+2023-05-26 22:47:35.676 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 737.6464ms
+2023-05-26 22:47:35.676 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-05-26 22:47:35.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData - - - 200 - text/html;+charset=utf-8 747.1368ms
+2023-05-26 22:47:35.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - -
+2023-05-26 22:47:35.977 +05:30 [INF] The file /images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg was not modified
+2023-05-26 22:47:35.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/2bc647dc-04aa-4a98-bdd5-82402096a6d7 .jpg - - - 304 - image/jpeg 23.5972ms
+2023-05-26 22:47:35.984 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/75ec4ff5-c8fd-4f5d-a812-32c0ae4d70b5 .jpg - -
+2023-05-26 22:47:36.018 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - -
+2023-05-26 22:47:36.018 +05:30 [INF] The file /images/4883f677-a3da-40bf-9988-a0593032f463 .jpg was not modified
+2023-05-26 22:47:36.018 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/4883f677-a3da-40bf-9988-a0593032f463 .jpg - - - 304 - image/jpeg 0.6822ms
+2023-05-26 22:47:36.018 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:47:36.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1319ms
+2023-05-26 22:47:36.182 +05:30 [INF] Sending file. Request path: '/images/75ec4ff5-c8fd-4f5d-a812-32c0ae4d70b5 .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\75ec4ff5-c8fd-4f5d-a812-32c0ae4d70b5 .jpg'
+2023-05-26 22:47:36.182 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/75ec4ff5-c8fd-4f5d-a812-32c0ae4d70b5 .jpg - - - 200 1493490 image/jpeg 198.4202ms
+2023-05-26 22:48:08.016 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771
+2023-05-26 22:48:08.016 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:08.017 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:48:08.019 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:48:08.021 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:48:08.023 +05:30 [INF] Executed ViewResult - view Create executed in 4.0474ms.
+2023-05-26 22:48:08.023 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 6.5265ms
+2023-05-26 22:48:08.023 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:08.023 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771 - 200 - text/html;+charset=utf-8 8.1718ms
+2023-05-26 22:48:08.165 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:48:08.165 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1926ms
+2023-05-26 22:48:22.590 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771
+2023-05-26 22:48:22.591 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:22.648 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:48:22.658 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:48:22.664 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:48:22.690 +05:30 [INF] Executed ViewResult - view Create executed in 33.1579ms.
+2023-05-26 22:48:22.690 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 42.5334ms
+2023-05-26 22:48:22.690 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:22.703 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryREhBO3STAYIFqarB 1771 - 200 - text/html;+charset=utf-8 112.4594ms
+2023-05-26 22:48:22.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:48:22.862 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2007ms
+2023-05-26 22:48:34.675 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryToivOGREgWaOsN04 1495254
+2023-05-26 22:48:34.702 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:34.702 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(IdentityManagement.Models.EmployeeData, Microsoft.AspNetCore.Http.IFormFile) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-26 22:48:34.786 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ui_UserID_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__ui_UserID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:48:34.849 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@__ui_MobileNumber_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[MobileNumber] = @__ui_MobileNumber_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:48:34.870 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@__ui_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[Name] = @__ui_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-26 22:48:34.879 +05:30 [INF] Executing ViewResult, running view Create.
+2023-05-26 22:48:34.880 +05:30 [INF] Accessing expired session, Key:dc4c67d6-e61e-dd91-2cc5-f8517595196a
+2023-05-26 22:48:34.891 +05:30 [INF] Executed ViewResult - view Create executed in 14.4ms.
+2023-05-26 22:48:34.891 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 188.4011ms
+2023-05-26 22:48:34.891 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-05-26 22:48:34.894 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/EmployeeData/Create multipart/form-data;+boundary=----WebKitFormBoundaryToivOGREgWaOsN04 1495254 - 200 - text/html;+charset=utf-8 219.3097ms
+2023-05-26 22:48:35.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:48:35.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1998ms
+2023-05-26 22:49:15.131 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Home/logOut - -
+2023-05-26 22:49:15.132 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-05-26 22:49:15.144 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:49:15.150 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-26 22:49:15.150 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-26 22:49:15.150 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.logOut (IdentityManagement) in 6.4873ms
+2023-05-26 22:49:15.150 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-05-26 22:49:15.151 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Home/logOut - - - 302 0 - 19.7967ms
+2023-05-26 22:49:15.159 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 22:49:15.162 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:49:15.164 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 22:49:15.166 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 22:49:15.169 +05:30 [INF] Executed ViewResult - view Index executed in 4.9924ms.
+2023-05-26 22:49:15.170 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 5.7184ms
+2023-05-26 22:49:15.170 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 22:49:15.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 10.9712ms
+2023-05-26 22:49:15.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 22:49:15.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1898ms
+2023-05-26 23:11:15.020 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 23:11:15.022 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 23:11:15.027 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 23:11:15.030 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 23:11:15.036 +05:30 [INF] Executed ViewResult - view Index executed in 8.3528ms.
+2023-05-26 23:11:15.036 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 8.5949ms
+2023-05-26 23:11:15.036 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 23:11:15.036 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 16.8624ms
+2023-05-26 23:11:18.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 23:11:18.410 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2747ms
+2023-05-26 23:13:30.133 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-26 23:13:30.133 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 23:13:30.135 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-26 23:13:30.142 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-26 23:13:30.157 +05:30 [INF] Executed ViewResult - view Index executed in 17.4633ms.
+2023-05-26 23:13:30.157 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 21.823ms
+2023-05-26 23:13:30.157 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-26 23:13:30.157 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 24.7987ms
+2023-05-26 23:13:30.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 23:13:30.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1982ms

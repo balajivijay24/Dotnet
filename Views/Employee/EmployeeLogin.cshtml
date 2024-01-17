@@ -1,0 +1,130 @@
+@* @{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1> *@
+@model User
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Identity Management</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+     <link rel="stylesheet" href="~/css/login.css" type="text/css"asp-append-version="true" />
+    <link rel="stylesheet" href="~/IdentityManagement.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="slide navbar style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<style>
+ #container {
+    overflow:hidden;
+    position:relative; 
+    }
+#hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+}
+@@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+</style>
+
+	
+<body>
+     <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="~/images/Elogo.png" style="width: 5%;margin-right:30px;"  alt="LOGO">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EMPLOYEE MANAGEMENT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" >
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a style="float: right;"  class="nav-link text-dark" asp-area="" asp-controller="" asp-action="Privacy"></a>
+                        </li>
+                    </ul>
+                </div> 
+               
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" >
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><b>Back</b></a>
+                        </li>
+                    </ul>
+                </div> 
+                </div>  
+            </div>
+        </nav>
+     </header>
+ <form1>    
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="Login">
+				<form method="post">
+                     <label for="chk" aria-hidden="true">Log In</label>
+                     <center><i class='fa fa-user' style='font-size:88px;color:white;'></i></center>
+					
+                     
+            
+                    <input   asp-for="EmailId" placeholder="Email" required>
+					<input  asp-for="userPassword" placeholder="Password" required>
+
+                 
+
+
+
+                     <div>
+                     @if (@TempData["passwors"]!=null)
+				{
+					<div>
+				<div id='container'>
+    				<div id='hideMe' style="text-align: center;">Your password is @TempData["password"]</div>
+					@{
+						TempData["password"]=null;
+					}
+				</div>
+				</div>
+					
+				}
+                   </div>
+
+                      <div>
+                     @if (@TempData["message"]!=null)
+				{
+					<div>
+				<div id='container'>
+    				<div id='hideMe' style="text-align: center;"> @TempData["message"]</div>
+					@{
+						TempData["message"]=null;
+					}
+				</div>
+				</div>
+					
+				}
+                   </div>
+					<button type="submit" >Sign In</button>
+                    <center> <a style="color:white;" asp-area="" asp-controller="Employee" asp-action="forgotPassword">Forget Password?</a></center>
+				</form>
+			</div>
+
+			
+	</div>
+</form1>
+</body>
+</html>

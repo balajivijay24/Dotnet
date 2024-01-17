@@ -1,0 +1,321 @@
+2023-06-27 19:26:53.457 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-27 19:26:54.197 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-27 19:26:54.256 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-27 19:26:54.256 +05:30 [INF] Hosting environment: Development
+2023-06-27 19:26:54.257 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-27 19:27:03.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-27 19:27:03.958 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-27 19:27:04.322 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:27:04.404 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:27:04.539 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 19:27:05.217 +05:30 [INF] Executed ViewResult - view Index executed in 758.7972ms.
+2023-06-27 19:27:05.224 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 818.1062ms
+2023-06-27 19:27:05.224 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:27:05.264 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1613.7331ms
+2023-06-27 19:27:05.552 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/site.css?v=Co-b9f_lC6MlOt8YKl9vlMC8BL46-QfWYk3wQlp5jyo - -
+2023-06-27 19:27:05.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-06-27 19:27:05.643 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-06-27 19:27:05.646 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 92.2960ms
+2023-06-27 19:27:05.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/IdentityManagement.styles.css?v=7OALh_86zQPsUQSc3aQW8ib0NKjDOOfp7P_JrIaXr28 - -
+2023-06-27 19:27:05.674 +05:30 [INF] The file /css/site.css was not modified
+2023-06-27 19:27:05.675 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/site.css?v=Co-b9f_lC6MlOt8YKl9vlMC8BL46-QfWYk3wQlp5jyo - - - 304 - text/css 123.2022ms
+2023-06-27 19:27:05.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:27:05.700 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 3.5670ms
+2023-06-27 19:27:05.784 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/jquery/dist/jquery.min.js - -
+2023-06-27 19:27:05.785 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-06-27 19:27:05.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 0.9296ms
+2023-06-27 19:27:05.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-06-27 19:27:05.787 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-06-27 19:27:05.788 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 2.0250ms
+2023-06-27 19:27:05.789 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal3.jpg - -
+2023-06-27 19:27:05.789 +05:30 [INF] Sending file. Request path: '/IdentityManagement.styles.css'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\obj\Debug\net7.0\scopedcss\bundle\IdentityManagement.styles.css'
+2023-06-27 19:27:05.790 +05:30 [INF] The file /images/carosal3.jpg was not modified
+2023-06-27 19:27:05.790 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal3.jpg - - - 304 - image/jpeg 1.5941ms
+2023-06-27 19:27:05.791 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/Elogo.png - -
+2023-06-27 19:27:05.792 +05:30 [INF] The file /images/Elogo.png was not modified
+2023-06-27 19:27:05.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/Elogo.png - - - 304 - image/png 1.3466ms
+2023-06-27 19:27:05.793 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-06-27 19:27:05.794 +05:30 [INF] The file /js/site.js was not modified
+2023-06-27 19:27:05.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 0.7833ms
+2023-06-27 19:27:05.827 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/IdentityManagement.styles.css?v=7OALh_86zQPsUQSc3aQW8ib0NKjDOOfp7P_JrIaXr28 - - - 200 1143 text/css 178.9449ms
+2023-06-27 19:27:05.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal1.jpg - -
+2023-06-27 19:27:05.950 +05:30 [INF] The file /images/carosal1.jpg was not modified
+2023-06-27 19:27:05.950 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal1.jpg - - - 304 - image/jpeg 2.1727ms
+2023-06-27 19:27:05.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal2.jpg - -
+2023-06-27 19:27:05.951 +05:30 [INF] The file /images/carosal2.jpg was not modified
+2023-06-27 19:27:05.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal2.jpg - - - 304 - image/jpeg 1.0321ms
+2023-06-27 19:27:06.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/favicon.ico - -
+2023-06-27 19:27:06.618 +05:30 [INF] The file /favicon.ico was not modified
+2023-06-27 19:27:06.618 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/favicon.ico - - - 304 - image/x-icon 1.1792ms
+2023-06-27 19:33:47.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-27 19:33:47.594 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:33:47.599 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:33:48.017 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-27 19:33:48.184 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 172.8923ms.
+2023-06-27 19:33:48.201 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 602.1611ms
+2023-06-27 19:33:48.201 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:33:48.205 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 624.6028ms
+2023-06-27 19:33:48.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - -
+2023-06-27 19:33:48.328 +05:30 [INF] The file /css/login.css was not modified
+2023-06-27 19:33:48.328 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/login.css?v=GUZTezyTTI5dyG6J9cyvtyfeJUkU7pKQQ4orhme0AaY - - - 304 - text/css 1.1352ms
+2023-06-27 19:33:48.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-27 19:33:48.389 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 59.0198ms
+2023-06-27 19:33:48.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:33:48.404 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3033ms
+2023-06-27 19:33:53.372 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-27 19:33:53.373 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:33:53.470 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:33:57.335 +05:30 [INF] Executed DbCommand (198ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-27 19:33:58.044 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-27 19:33:58.118 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-27 19:33:58.120 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 4649.3488ms
+2023-06-27 19:33:58.123 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:33:58.130 +05:30 [INF] Session started; Key:2fb049d2-3a45-d6a9-5a5c-be07ccb2be6d, Id:a4f795ac-88f0-5ed0-82a8-2bcca7a879a1
+2023-06-27 19:33:58.145 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 4772.0762ms
+2023-06-27 19:33:58.145 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-27 19:33:58.159 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-06-27 19:33:58.169 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-06-27 19:33:58.416 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-06-27 19:33:58.631 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-27 19:33:58.692 +05:30 [INF] Executed ViewResult - view Profile executed in 62.5854ms.
+2023-06-27 19:33:58.692 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 523.6785ms
+2023-06-27 19:33:58.693 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-06-27 19:33:58.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 547.8592ms
+2023-06-27 19:33:58.766 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:33:58.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2538ms
+2023-06-27 19:33:58.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/EmployeeProfile.css?v=w2_QZJHs7IoxQXIx2mut73-6J8UOcj3EScwpzWTPHCg - -
+2023-06-27 19:33:58.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/492eb40a-91b7-4ee6-8770-d848880aa774 .jpg - -
+2023-06-27 19:33:58.775 +05:30 [INF] The file /css/EmployeeProfile.css was not modified
+2023-06-27 19:33:58.775 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/EmployeeProfile.css?v=w2_QZJHs7IoxQXIx2mut73-6J8UOcj3EScwpzWTPHCg - - - 304 - text/css 0.5701ms
+2023-06-27 19:33:58.781 +05:30 [INF] The file /images/492eb40a-91b7-4ee6-8770-d848880aa774 .jpg was not modified
+2023-06-27 19:33:58.781 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/492eb40a-91b7-4ee6-8770-d848880aa774 .jpg - - - 304 - image/jpeg 6.1374ms
+2023-06-27 19:34:24.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Home/logOut - -
+2023-06-27 19:34:24.205 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-06-27 19:34:24.216 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:34:24.223 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-06-27 19:34:24.225 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-06-27 19:34:24.226 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.logOut (IdentityManagement) in 9.659ms
+2023-06-27 19:34:24.226 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-06-27 19:34:24.227 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Home/logOut - - - 302 0 - 23.4868ms
+2023-06-27 19:34:24.235 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-27 19:34:24.236 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:34:24.236 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:34:24.237 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 19:34:24.239 +05:30 [INF] Executed ViewResult - view Index executed in 3.0238ms.
+2023-06-27 19:34:24.240 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 3.5026ms
+2023-06-27 19:34:24.240 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:34:24.240 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 4.5487ms
+2023-06-27 19:34:24.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:24.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1940ms
+2023-06-27 19:34:28.487 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-27 19:34:28.488 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:34:28.488 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:34:28.489 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-27 19:34:28.495 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 6.0784ms.
+2023-06-27 19:34:28.496 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 7.807ms
+2023-06-27 19:34:28.496 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:34:28.496 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 8.8348ms
+2023-06-27 19:34:28.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-27 19:34:28.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 9.2890ms
+2023-06-27 19:34:28.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:28.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2512ms
+2023-06-27 19:34:37.650 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 240
+2023-06-27 19:34:37.651 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:34:37.652 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:34:37.840 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-27 19:34:37.928 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-27 19:34:37.937 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData/Profile?EmailId=sargunan9843@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-27 19:34:37.937 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 285.1263ms
+2023-06-27 19:34:37.937 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:34:37.938 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 240 - 302 0 - 287.1884ms
+2023-06-27 19:34:37.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunan9843@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-27 19:34:37.974 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-06-27 19:34:37.974 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-06-27 19:34:37.993 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-06-27 19:34:38.001 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-27 19:34:38.004 +05:30 [INF] Executed ViewResult - view Profile executed in 2.6727ms.
+2023-06-27 19:34:38.004 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 30.0055ms
+2023-06-27 19:34:38.004 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-06-27 19:34:38.004 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunan9843@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 52.2419ms
+2023-06-27 19:34:38.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/df9d5403-0852-411f-96b9-1d05f1f6d155 .jpg - -
+2023-06-27 19:34:38.145 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:38.146 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2401ms
+2023-06-27 19:34:38.428 +05:30 [INF] Sending file. Request path: '/images/df9d5403-0852-411f-96b9-1d05f1f6d155 .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\df9d5403-0852-411f-96b9-1d05f1f6d155 .jpg'
+2023-06-27 19:34:38.428 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/df9d5403-0852-411f-96b9-1d05f1f6d155 .jpg - - - 200 1493490 image/jpeg 283.8637ms
+2023-06-27 19:34:47.341 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Home/logOut - -
+2023-06-27 19:34:47.344 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-06-27 19:34:47.344 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:34:47.344 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-06-27 19:34:47.345 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-06-27 19:34:47.345 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.logOut (IdentityManagement) in 0.9377ms
+2023-06-27 19:34:47.345 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.logOut (IdentityManagement)'
+2023-06-27 19:34:47.345 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Home/logOut - - - 302 0 - 4.1847ms
+2023-06-27 19:34:47.360 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-27 19:34:47.361 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:34:47.361 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:34:47.362 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 19:34:47.365 +05:30 [INF] Executed ViewResult - view Index executed in 3.2766ms.
+2023-06-27 19:34:47.367 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 5.3931ms
+2023-06-27 19:34:47.373 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:34:47.374 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 13.3984ms
+2023-06-27 19:34:47.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:47.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2143ms
+2023-06-27 19:34:49.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-27 19:34:49.260 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:34:49.260 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:34:49.261 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-27 19:34:49.265 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 3.603ms.
+2023-06-27 19:34:49.266 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 5.247ms
+2023-06-27 19:34:49.266 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 19:34:49.266 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 6.8236ms
+2023-06-27 19:34:49.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:49.464 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2036ms
+2023-06-27 19:34:49.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-27 19:34:49.465 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 0.8403ms
+2023-06-27 19:34:58.085 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-27 19:34:58.085 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:34:58.085 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:34:58.095 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-27 19:34:58.158 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-27 19:34:58.214 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-27 19:34:58.214 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 128.89ms
+2023-06-27 19:34:58.214 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 19:34:58.215 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 130.0703ms
+2023-06-27 19:34:58.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-27 19:34:58.221 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-27 19:34:58.228 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 19:34:58.231 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-27 19:34:58.262 +05:30 [INF] Executed ViewResult - view Profile executed in 33.4813ms.
+2023-06-27 19:34:58.262 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement) in 34.4129ms
+2023-06-27 19:34:58.262 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-27 19:34:58.263 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 42.4328ms
+2023-06-27 19:34:58.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:34:58.309 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2154ms
+2023-06-27 19:34:58.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/images.png - -
+2023-06-27 19:34:58.310 +05:30 [INF] The file /images/images.png was not modified
+2023-06-27 19:34:58.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/images.png - - - 304 - image/png 1.1907ms
+2023-06-27 19:35:00.205 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Index - -
+2023-06-27 19:35:00.214 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-06-27 19:35:00.227 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-06-27 19:35:00.331 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-06-27 19:35:00.433 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-06-27 19:35:00.444 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 19:35:00.542 +05:30 [INF] Executed ViewResult - view Index executed in 104.7662ms.
+2023-06-27 19:35:00.542 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 315.253ms
+2023-06-27 19:35:00.542 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-06-27 19:35:00.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Index - - - 200 - text/html;+charset=utf-8 337.6023ms
+2023-06-27 19:35:00.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/Index.css?v=iiqcz8g0UQ61X6oWOdzIZxmEdvb8KWMWXKKJIvMubEc - -
+2023-06-27 19:35:00.601 +05:30 [INF] The file /css/Index.css was not modified
+2023-06-27 19:35:00.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/Index.css?v=iiqcz8g0UQ61X6oWOdzIZxmEdvb8KWMWXKKJIvMubEc - - - 304 - text/css 1.9627ms
+2023-06-27 19:35:00.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:35:00.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3048ms
+2023-06-27 19:35:00.632 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/73b8e2ff-4385-49df-8034-bd99db3c2ce7 .jpg - -
+2023-06-27 19:35:00.663 +05:30 [INF] Sending file. Request path: '/images/73b8e2ff-4385-49df-8034-bd99db3c2ce7 .jpg'. Physical path: 'C:\Users\sargu\Desktop\FinalProject\IdentityManagement\wwwroot\images\73b8e2ff-4385-49df-8034-bd99db3c2ce7 .jpg'
+2023-06-27 19:35:00.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/73b8e2ff-4385-49df-8034-bd99db3c2ce7 .jpg - - - 200 119232 image/jpeg 32.1004ms
+2023-06-27 19:35:31.533 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-27 19:35:31.534 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:35:31.534 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-27 19:35:31.536 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 19:35:31.543 +05:30 [INF] Executed ViewResult - view Index executed in 7.1585ms.
+2023-06-27 19:35:31.543 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 8.7386ms
+2023-06-27 19:35:31.543 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-27 19:35:31.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 9.9770ms
+2023-06-27 19:35:32.329 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 19:35:32.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 2.5320ms
+2023-06-27 21:27:30.411 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 21:27:30.459 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 55.8559ms
+2023-06-27 21:31:59.449 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-06-27 21:31:59.753 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-27 21:31:59.796 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 21:31:59.821 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 21:31:59.928 +05:30 [INF] Accessing expired session, Key:2fb049d2-3a45-d6a9-5a5c-be07ccb2be6d
+2023-06-27 21:32:00.001 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-06-27 21:32:00.164 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 226.2127ms.
+2023-06-27 21:32:00.236 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 410.4696ms
+2023-06-27 21:32:00.236 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-06-27 21:32:00.246 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 797.0251ms
+2023-06-27 21:32:00.483 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-06-27 21:32:00.493 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-27 21:32:00.493 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 10.4187ms
+2023-06-27 21:32:00.494 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 21:32:00.494 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2050ms
+2023-06-27 21:32:07.564 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-06-27 21:32:07.566 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-27 21:32:07.566 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 21:32:07.566 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 21:32:07.784 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@__user_EmailId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employeess] AS [e]
+        WHERE [e].[UserID] = @__user_EmailId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-06-27 21:32:07.854 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-27 21:32:07.859 +05:30 [INF] Accessing expired session, Key:2fb049d2-3a45-d6a9-5a5c-be07ccb2be6d
+2023-06-27 21:32:07.861 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-06-27 21:32:07.861 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 294.1854ms
+2023-06-27 21:32:07.861 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-06-27 21:32:07.863 +05:30 [INF] Session started; Key:2fb049d2-3a45-d6a9-5a5c-be07ccb2be6d, Id:36bfd05b-b72b-34fa-fbcd-1fb296739727
+2023-06-27 21:32:07.864 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 0 - 300.9834ms
+2023-06-27 21:32:07.873 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-06-27 21:32:07.880 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-27 21:32:07.880 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-06-27 21:32:07.885 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-27 21:32:07.887 +05:30 [INF] Executed ViewResult - view Profile executed in 4.891ms.
+2023-06-27 21:32:07.887 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement) in 5.8564ms
+2023-06-27 21:32:07.887 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.Profile (IdentityManagement)'
+2023-06-27 21:32:07.888 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/Profile?EmailId=sargunan744@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 15.2861ms
+2023-06-27 21:32:07.938 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 21:32:07.940 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7663ms
+2023-06-27 21:32:10.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Index - -
+2023-06-27 21:32:10.198 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-06-27 21:32:10.199 +05:30 [INF] Route matched with {action = "Index", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.Nullable`1[System.Int32]) on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-06-27 21:32:10.207 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employeess] AS [e]
+2023-06-27 21:32:10.279 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+ORDER BY [e].[DateofBirth]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-06-27 21:32:10.283 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-27 21:32:10.301 +05:30 [INF] Executed ViewResult - view Index executed in 21.2288ms.
+2023-06-27 21:32:10.301 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement) in 102.4756ms
+2023-06-27 21:32:10.302 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Index (IdentityManagement)'
+2023-06-27 21:32:10.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Index - - - 200 - text/html;+charset=utf-8 110.2657ms
+2023-06-27 21:32:10.421 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 21:32:10.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4829ms

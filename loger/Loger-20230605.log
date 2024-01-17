@@ -1,0 +1,117 @@
+2023-06-05 09:24:43.529 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 09:24:44.624 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-05 09:24:44.644 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 09:24:44.645 +05:30 [INF] Hosting environment: Development
+2023-06-05 09:24:44.645 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-06-05 09:24:48.943 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-05 09:24:49.267 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-05 09:24:50.669 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-05 09:24:50.856 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-05 09:24:50.993 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-05 09:24:54.009 +05:30 [INF] Executed ViewResult - view Index executed in 3080.8028ms.
+2023-06-05 09:24:54.021 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 3158.1051ms
+2023-06-05 09:24:54.021 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-05 09:24:54.359 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 5452.5863ms
+2023-06-05 09:25:03.898 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-06-05 09:25:03.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/site.css?v=Co-b9f_lC6MlOt8YKl9vlMC8BL46-QfWYk3wQlp5jyo - -
+2023-06-05 09:25:04.043 +05:30 [INF] The file /css/site.css was not modified
+2023-06-05 09:25:04.045 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/site.css?v=Co-b9f_lC6MlOt8YKl9vlMC8BL46-QfWYk3wQlp5jyo - - - 304 - text/css 142.6170ms
+2023-06-05 09:25:04.046 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/IdentityManagement.styles.css?v=7OALh_86zQPsUQSc3aQW8ib0NKjDOOfp7P_JrIaXr28 - -
+2023-06-05 09:25:04.047 +05:30 [INF] The file /IdentityManagement.styles.css was not modified
+2023-06-05 09:25:04.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/IdentityManagement.styles.css?v=7OALh_86zQPsUQSc3aQW8ib0NKjDOOfp7P_JrIaXr28 - - - 304 - text/css 1.1146ms
+2023-06-05 09:25:04.051 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-06-05 09:25:04.052 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 154.0351ms
+2023-06-05 09:25:10.958 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 09:25:10.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.7604ms
+2023-06-05 09:25:11.172 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/jquery/dist/jquery.min.js - -
+2023-06-05 09:25:11.172 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-06-05 09:25:11.173 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 0.9232ms
+2023-06-05 09:25:12.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-06-05 09:25:12.032 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-06-05 09:25:12.032 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 10.6641ms
+2023-06-05 09:25:13.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-06-05 09:25:13.470 +05:30 [INF] The file /js/site.js was not modified
+2023-06-05 09:25:13.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 0.7684ms
+2023-06-05 09:25:13.572 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/Elogo.png - -
+2023-06-05 09:25:13.574 +05:30 [INF] The file /images/Elogo.png was not modified
+2023-06-05 09:25:13.574 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/Elogo.png - - - 304 - image/png 2.1483ms
+2023-06-05 09:25:14.657 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal3.jpg - -
+2023-06-05 09:25:14.657 +05:30 [INF] The file /images/carosal3.jpg was not modified
+2023-06-05 09:25:14.658 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal3.jpg - - - 304 - image/jpeg 0.9103ms
+2023-06-05 09:25:14.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal1.jpg - -
+2023-06-05 09:25:14.660 +05:30 [INF] The file /images/carosal1.jpg was not modified
+2023-06-05 09:25:14.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal1.jpg - - - 304 - image/jpeg 2.4300ms
+2023-06-05 09:25:14.677 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/carosal2.jpg - -
+2023-06-05 09:25:14.678 +05:30 [INF] The file /images/carosal2.jpg was not modified
+2023-06-05 09:25:14.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/carosal2.jpg - - - 304 - image/jpeg 0.8074ms
+2023-06-05 09:55:51.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-06-05 09:55:51.764 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-05 09:55:51.797 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-06-05 09:55:51.825 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-05 09:55:52.003 +05:30 [INF] Executed ViewResult - view Index executed in 192.4553ms.
+2023-06-05 09:55:52.008 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 210.7783ms
+2023-06-05 09:55:52.009 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-06-05 09:55:52.016 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 393.7271ms
+2023-06-05 09:55:53.494 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 09:55:53.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 8.6452ms
+2023-06-05 09:55:53.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/favicon.ico - -
+2023-06-05 09:55:53.821 +05:30 [INF] The file /favicon.ico was not modified
+2023-06-05 09:55:53.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/favicon.ico - - - 304 - image/x-icon 12.3291ms
+2023-06-05 10:01:20.691 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-06-05 10:01:20.720 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-06-05 10:01:20.723 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-06-05 10:01:20.740 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-06-05 10:01:21.008 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 270.8904ms.
+2023-06-05 10:01:21.008 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 285.6609ms
+2023-06-05 10:01:21.009 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-06-05 10:01:21.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 200 - text/html;+charset=utf-8 318.1391ms
+2023-06-05 10:01:21.124 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/login.css?v=i6jE1K6FOEzzUP9vY7KX9e73WrgSAVVmNoBqIp33Ul8 - -
+2023-06-05 10:01:21.132 +05:30 [INF] The file /css/login.css was not modified
+2023-06-05 10:01:21.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/login.css?v=i6jE1K6FOEzzUP9vY7KX9e73WrgSAVVmNoBqIp33Ul8 - - - 304 - text/css 7.9318ms
+2023-06-05 10:01:21.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - -
+2023-06-05 10:01:21.172 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - - - 404 0 - 23.7625ms
+2023-06-05 10:01:21.216 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - -
+2023-06-05 10:01:21.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - -
+2023-06-05 10:01:21.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - - - 404 0 - 0.9916ms
+2023-06-05 10:01:21.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - - - 404 0 - 1.2969ms
+2023-06-05 10:01:21.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - -
+2023-06-05 10:01:21.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - - - 404 0 - 0.9247ms
+2023-06-05 10:01:21.219 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - -
+2023-06-05 10:01:21.220 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - - - 404 0 - 0.9044ms
+2023-06-05 10:01:21.219 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 10:01:21.222 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 2.3941ms
+2023-06-05 10:01:23.986 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239
+2023-06-05 10:01:23.987 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-06-05 10:01:24.071 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AdminLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-06-05 10:01:24.919 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-06-05 10:01:24.989 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-06-05 10:01:25.029 +05:30 [INF] Executed ViewResult - view Profile executed in 41.1469ms.
+2023-06-05 10:01:25.029 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement) in 957.725ms
+2023-06-05 10:01:25.029 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLoginAsync (IdentityManagement)'
+2023-06-05 10:01:25.061 +05:30 [INF] Session started; Key:38a516ec-7677-b994-4665-7b1d4196d59a, Id:e52b95fc-0f30-5dd9-cc2c-571b7f963526
+2023-06-05 10:01:25.062 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Admin/AdminLogin application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 1075.7470ms
+2023-06-05 10:01:25.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/images/images.png - -
+2023-06-05 10:01:25.151 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 10:01:25.151 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1894ms
+2023-06-05 10:01:25.152 +05:30 [INF] The file /images/images.png was not modified
+2023-06-05 10:01:25.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/images/images.png - - - 304 - image/png 1.8510ms
+2023-06-05 10:01:26.753 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - -
+2023-06-05 10:01:26.773 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-06-05 10:01:26.774 +05:30 [INF] Route matched with {action = "Create", controller = "EmployeeData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-06-05 10:01:27.152 +05:30 [INF] Executing ViewResult, running view Create.
+2023-06-05 10:01:27.436 +05:30 [INF] Executed ViewResult - view Create executed in 286.8501ms.
+2023-06-05 10:01:27.436 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement) in 661.7923ms
+2023-06-05 10:01:27.436 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Create (IdentityManagement)'
+2023-06-05 10:01:27.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Create - - - 200 - text/html;+charset=utf-8 688.2211ms
+2023-06-05 10:01:27.585 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 10:01:27.585 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2254ms
+2023-06-05 10:01:27.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/css/form.css?v=oTTKxs0rb34DdiK3rBevJlhTqevLYXR4d3do7Aht78w - -
+2023-06-05 10:01:27.591 +05:30 [INF] The file /css/form.css was not modified
+2023-06-05 10:01:27.592 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/css/form.css?v=oTTKxs0rb34DdiK3rBevJlhTqevLYXR4d3do7Aht78w - - - 304 - text/css 0.7600ms
+2023-06-05 10:01:27.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-06-05 10:01:27.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/lib/jquery-validation/dist/jquery.validate.js - -
+2023-06-05 10:01:27.647 +05:30 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js was not modified
+2023-06-05 10:01:27.647 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - text/javascript 13.4887ms
+2023-06-05 10:01:27.652 +05:30 [INF] The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+2023-06-05 10:01:27.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/lib/jquery-validation/dist/jquery.validate.js - - - 304 - text/javascript 18.0847ms
+2023-06-05 10:01:31.657 +05:30 [INF] Application is shutting down...

@@ -1,0 +1,5 @@
+2023-06-06 09:46:34.711 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-06 09:46:38.754 +05:30 [INF] Now listening on: http://localhost:5211
+2023-06-06 09:46:38.779 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-06 09:46:38.780 +05:30 [INF] Hosting environment: Development
+2023-06-06 09:46:38.781 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement

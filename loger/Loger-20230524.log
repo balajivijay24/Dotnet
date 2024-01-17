@@ -1,0 +1,1002 @@
+2023-05-24 16:23:12.620 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:23:13.192 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:23:13.207 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:23:13.207 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:23:13.208 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:23:16.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:23:17.355 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:23:18.202 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:23:18.262 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:23:18.372 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:23:19.098 +05:30 [INF] Executed ViewResult - view Index executed in 724.835ms.
+2023-05-24 16:23:19.105 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 841.2138ms
+2023-05-24 16:23:19.106 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:23:19.172 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 2688.5466ms
+2023-05-24 16:23:19.682 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:23:19.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.5448ms
+2023-05-24 16:23:27.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:23:27.854 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:23:27.858 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:23:27.867 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:23:28.376 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 514.4309ms.
+2023-05-24 16:23:28.377 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 518.2148ms
+2023-05-24 16:23:28.377 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:23:28.377 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 535.7839ms
+2023-05-24 16:23:28.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:23:28.887 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.1909ms
+2023-05-24 16:23:29.018 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:23:29.050 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 32.1225ms
+2023-05-24 16:23:32.769 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239
+2023-05-24 16:23:32.770 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-05-24 16:23:32.968 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmployeeLoginAsync(User, IdentityManagement.Models.Database) on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:23:35.605 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-24 16:23:35.620 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False.
+2023-05-24 16:23:35.627 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement) in 2659.2657ms
+2023-05-24 16:23:35.628 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLoginAsync (IdentityManagement)'
+2023-05-24 16:23:35.692 +05:30 [INF] Session started; Key:eeb7b23d-5043-4d57-12f8-251384f937e1, Id:cf63801e-701a-cbc3-8fa0-cdb0a5a87661
+2023-05-24 16:23:35.693 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5211/Employee/EmployeeLogin application/x-www-form-urlencoded 239 - 302 - - 2923.5814ms
+2023-05-24 16:23:35.733 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-05-24 16:23:35.753 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:23:35.763 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:23:42.864 +05:30 [INF] Executed DbCommand (439ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-05-24 16:23:43.448 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:23:43.543 +05:30 [INF] Executed ViewResult - view Profile executed in 96.2674ms.
+2023-05-24 16:23:43.545 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 7782.0828ms
+2023-05-24 16:23:43.546 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:23:43.582 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 7849.3867ms
+2023-05-24 16:23:43.746 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:23:43.746 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2920ms
+2023-05-24 16:24:32.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-05-24 16:24:32.156 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:24:32.166 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:24:32.281 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-05-24 16:24:32.291 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:24:32.304 +05:30 [INF] Executed ViewResult - view Profile executed in 16.852ms.
+2023-05-24 16:24:32.304 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 137.9878ms
+2023-05-24 16:24:32.304 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:24:32.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 156.4018ms
+2023-05-24 16:24:34.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:24:34.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2379ms
+2023-05-24 16:25:32.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-05-24 16:25:32.088 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:25:32.104 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:25:32.535 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-05-24 16:25:32.542 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:25:32.556 +05:30 [INF] Executed ViewResult - view Profile executed in 17.7461ms.
+2023-05-24 16:25:32.556 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 451.8131ms
+2023-05-24 16:25:32.556 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:25:32.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 474.6285ms
+2023-05-24 16:25:37.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:25:37.704 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4780ms
+2023-05-24 16:26:23.221 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - -
+2023-05-24 16:26:23.223 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:26:23.245 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:26:23.268 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@__mail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE [e].[UserID] = @__mail_0
+2023-05-24 16:26:23.270 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:26:23.303 +05:30 [INF] Executed ViewResult - view Profile executed in 33.4564ms.
+2023-05-24 16:26:23.303 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 57.2727ms
+2023-05-24 16:26:23.303 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:26:23.303 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile?EmailId=sargunanarc@gmail.com&userPassword=Pdss@2002&keepLoggedIn=False - - - 200 - text/html;+charset=utf-8 81.9063ms
+2023-05-24 16:26:23.592 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:26:23.592 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2387ms
+2023-05-24 16:26:27.005 +05:30 [INF] Application is shutting down...
+2023-05-24 16:27:00.149 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:27:00.451 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:27:00.465 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:27:00.466 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:27:00.466 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:27:02.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:27:02.755 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:27:03.208 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:27:03.297 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:27:03.355 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:27:03.884 +05:30 [INF] Executed ViewResult - view Index executed in 548.1468ms.
+2023-05-24 16:27:03.890 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 591.3913ms
+2023-05-24 16:27:03.890 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:27:04.041 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1731.6246ms
+2023-05-24 16:27:04.076 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:27:04.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 5.8088ms
+2023-05-24 16:27:08.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:27:08.156 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:27:08.160 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:27:08.165 +05:30 [INF] Executing RedirectResult, redirecting to /EmployeeData/Profile.
+2023-05-24 16:27:08.166 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 5.9722ms
+2023-05-24 16:27:08.166 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:27:08.167 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 302 0 - 23.2055ms
+2023-05-24 16:27:08.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile - -
+2023-05-24 16:27:08.390 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:27:08.484 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:27:15.727 +05:30 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE 0 = 1
+2023-05-24 16:27:15.877 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:27:15.915 +05:30 [INF] Accessing expired session, Key:eeb7b23d-5043-4d57-12f8-251384f937e1
+2023-05-24 16:27:15.925 +05:30 [INF] Executed ViewResult - view Profile executed in 53.3104ms.
+2023-05-24 16:27:15.927 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 7442.0359ms
+2023-05-24 16:27:15.928 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:27:15.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile - - - 200 - text/html;+charset=utf-8 7625.6842ms
+2023-05-24 16:27:16.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:27:16.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8969ms
+2023-05-24 16:28:52.783 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile - -
+2023-05-24 16:28:52.796 +05:30 [INF] Executing endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:28:52.797 +05:30 [INF] Route matched with {action = "Profile", controller = "EmployeeData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller EmployeeDataController.Controllers.EmployeeDataController (IdentityManagement).
+2023-05-24 16:28:52.915 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[ID], [e].[Aadhaar], [e].[Address], [e].[DateofBirth], [e].[EmployeePackage], [e].[Experience], [e].[Gender], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[ProfilePicture], [e].[TeamName], [e].[UserID]
+FROM [Employeess] AS [e]
+WHERE 0 = 1
+2023-05-24 16:28:52.917 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-05-24 16:28:52.919 +05:30 [INF] Accessing expired session, Key:eeb7b23d-5043-4d57-12f8-251384f937e1
+2023-05-24 16:28:52.920 +05:30 [INF] Executed ViewResult - view Profile executed in 3.6221ms.
+2023-05-24 16:28:52.920 +05:30 [INF] Executed action EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement) in 123.719ms
+2023-05-24 16:28:52.921 +05:30 [INF] Executed endpoint 'EmployeeDataController.Controllers.EmployeeDataController.Profile (IdentityManagement)'
+2023-05-24 16:28:52.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/EmployeeData/Profile - - - 200 - text/html;+charset=utf-8 138.2963ms
+2023-05-24 16:28:53.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:28:53.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2632ms
+2023-05-24 16:28:54.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:28:54.771 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2118ms
+2023-05-24 16:29:36.705 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:29:37.221 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:29:37.235 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:29:37.235 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:29:37.235 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:29:38.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:29:39.090 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:29:39.323 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:29:39.357 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:29:39.429 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:29:39.820 +05:30 [INF] Executed ViewResult - view Index executed in 381.1058ms.
+2023-05-24 16:29:39.826 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 467.1395ms
+2023-05-24 16:29:39.826 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:29:39.842 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 888.2283ms
+2023-05-24 16:29:40.003 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:29:40.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 7.0735ms
+2023-05-24 16:31:54.671 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:31:54.687 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:31:54.697 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:31:54.701 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:31:54.755 +05:30 [INF] Executed ViewResult - view Index executed in 56.0507ms.
+2023-05-24 16:31:54.756 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 58.113ms
+2023-05-24 16:31:54.756 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:31:54.756 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 85.0995ms
+2023-05-24 16:31:58.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:31:58.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8475ms
+2023-05-24 16:32:34.941 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:32:34.972 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:32:34.974 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:32:34.979 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:32:34.991 +05:30 [INF] Executed ViewResult - view Index executed in 13.4636ms.
+2023-05-24 16:32:34.991 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 16.8201ms
+2023-05-24 16:32:34.993 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:32:34.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 52.6036ms
+2023-05-24 16:32:35.321 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:32:35.322 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3576ms
+2023-05-24 16:34:01.331 +05:30 [INF] Application is shutting down...
+2023-05-24 16:45:03.514 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:45:04.099 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:45:04.181 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:45:04.181 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:45:04.183 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:45:06.585 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:45:06.798 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:45:07.114 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:45:07.215 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:45:07.262 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:45:07.421 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:45:07.840 +05:30 [INF] Executed ViewResult - view Index executed in 506.4193ms.
+2023-05-24 16:45:07.852 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 580.3961ms
+2023-05-24 16:45:07.852 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:45:07.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1425.8373ms
+2023-05-24 16:45:08.161 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:45:08.173 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 12.4770ms
+2023-05-24 16:46:47.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:46:47.987 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:46:47.989 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:46:48.017 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:46:48.031 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:46:48.072 +05:30 [INF] Executed ViewResult - view Index executed in 51.6296ms.
+2023-05-24 16:46:48.088 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 69.5067ms
+2023-05-24 16:46:48.088 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:46:48.089 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 117.8752ms
+2023-05-24 16:46:48.219 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:46:48.225 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 6.0240ms
+2023-05-24 16:47:09.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:47:09.532 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:47:09.536 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:47:09.541 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:47:09.548 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:47:09.568 +05:30 [INF] Executed ViewResult - view Index executed in 22.4494ms.
+2023-05-24 16:47:09.569 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 24.2433ms
+2023-05-24 16:47:09.569 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:47:09.569 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 58.8035ms
+2023-05-24 16:47:10.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:47:10.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2852ms
+2023-05-24 16:47:40.909 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:47:40.909 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:47:40.910 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:47:40.913 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:47:40.917 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:47:40.934 +05:30 [INF] Executed ViewResult - view Index executed in 18.5711ms.
+2023-05-24 16:47:40.934 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 21.052ms
+2023-05-24 16:47:40.934 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:47:40.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 25.1794ms
+2023-05-24 16:47:41.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:47:41.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8597ms
+2023-05-24 16:47:47.595 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:47:47.608 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:47:47.609 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:47:47.611 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:47:47.619 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:47:47.794 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 179.7613ms.
+2023-05-24 16:47:47.794 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 183.1334ms
+2023-05-24 16:47:47.795 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:47:47.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 200.8025ms
+2023-05-24 16:47:47.931 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:47:47.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2483ms
+2023-05-24 16:47:47.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:47:47.975 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:47:47.976 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 20.6819ms
+2023-05-24 16:48:56.407 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:48:56.408 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:48:56.408 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:48:56.410 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:48:56.420 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:48:56.460 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 49.8516ms.
+2023-05-24 16:48:56.462 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 51.4239ms
+2023-05-24 16:48:56.462 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:48:56.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 54.4796ms
+2023-05-24 16:48:56.640 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:48:56.650 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:48:56.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 10.8578ms
+2023-05-24 16:48:56.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:48:56.688 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2481ms
+2023-05-24 16:49:39.505 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:49:39.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2444ms
+2023-05-24 16:49:41.545 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:49:41.546 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:49:41.546 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:49:41.548 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:49:41.566 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:49:41.596 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 47.7566ms.
+2023-05-24 16:49:41.598 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 50.0661ms
+2023-05-24 16:49:41.598 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:49:41.599 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 53.3502ms
+2023-05-24 16:49:41.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:49:41.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5440ms
+2023-05-24 16:49:41.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:49:41.766 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:49:41.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 11.3210ms
+2023-05-24 16:50:25.209 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:50:25.560 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:50:25.574 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:50:25.574 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:50:25.574 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:50:27.950 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:50:28.037 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:50:28.278 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:28.368 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:28.411 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:50:28.444 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:50:28.928 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 407.1142ms.
+2023-05-24 16:50:28.963 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 551.053ms
+2023-05-24 16:50:28.964 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:28.979 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:50:28.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 14.4123ms
+2023-05-24 16:50:28.997 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:50:29.019 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:29.049 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 52.6087ms
+2023-05-24 16:50:29.064 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 1128.1895ms
+2023-05-24 16:50:37.085 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:50:37.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7881ms
+2023-05-24 16:50:39.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:50:39.219 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:39.221 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:39.221 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:50:39.222 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:50:39.234 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 12.213ms.
+2023-05-24 16:50:39.235 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 13.5891ms
+2023-05-24 16:50:39.235 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:39.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 26.5096ms
+2023-05-24 16:50:39.331 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:50:39.335 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:39.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 6.9925ms
+2023-05-24 16:50:39.421 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:50:39.421 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3299ms
+2023-05-24 16:50:46.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:50:46.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2683ms
+2023-05-24 16:50:48.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:50:48.720 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:48.721 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:48.721 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:50:48.722 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:50:48.725 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 3.6847ms.
+2023-05-24 16:50:48.726 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 4.1125ms
+2023-05-24 16:50:48.726 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:50:48.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 6.1568ms
+2023-05-24 16:50:48.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:50:48.857 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:50:48.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 2.6030ms
+2023-05-24 16:50:48.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:50:48.903 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3922ms
+2023-05-24 16:51:40.926 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:51:41.703 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:51:41.777 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:51:41.777 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:51:41.778 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:51:42.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:51:42.723 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:51:43.080 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:51:43.198 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:51:43.261 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:51:43.508 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:51:43.551 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 273.1753ms
+2023-05-24 16:51:43.583 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:51:43.800 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-24 16:51:43.803 +05:30 [WRN] The response has already started, the error page middleware will not be executed.
+2023-05-24 16:51:43.931 +05:30 [ERR] Connection id "0HMQS946CHJSL", Request id "0HMQS946CHJSL:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-05-24 16:51:43.937 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - - 1746.0613ms
+2023-05-24 16:51:49.739 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:51:49.744 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:51:49.747 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:51:49.751 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:51:49.762 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:51:50.031 +05:30 [INF] Executed ViewResult - view Index executed in 275.5803ms.
+2023-05-24 16:51:50.031 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 280.3394ms
+2023-05-24 16:51:50.031 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:51:50.037 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 298.0530ms
+2023-05-24 16:51:50.138 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:51:50.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 17.0707ms
+2023-05-24 16:51:52.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:51:52.552 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:51:52.554 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:51:52.554 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:51:52.556 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:51:52.558 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 3.9314ms
+2023-05-24 16:51:52.572 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:51:52.591 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-24 16:51:52.599 +05:30 [WRN] The response has already started, the error page middleware will not be executed.
+2023-05-24 16:51:52.774 +05:30 [ERR] Connection id "0HMQS946CHJSM", Request id "0HMQS946CHJSM:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-05-24 16:51:52.780 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - - 249.2595ms
+2023-05-24 16:51:59.950 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:51:59.951 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6762ms
+2023-05-24 16:52:02.929 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:52:02.932 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:02.933 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:52:02.934 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:52:02.939 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:52:02.940 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 1.5208ms
+2023-05-24 16:52:02.940 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:52:03.047 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-24 16:52:03.070 +05:30 [WRN] The response has already started, the error page middleware will not be executed.
+2023-05-24 16:52:03.100 +05:30 [ERR] Connection id "0HMQS946CHJSQ", Request id "0HMQS946CHJSQ:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-05-24 16:52:03.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - - 174.2281ms
+2023-05-24 16:52:15.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:52:15.327 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:15.328 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:15.331 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:52:15.334 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:52:15.360 +05:30 [INF] Executed ViewResult - view Index executed in 28.1421ms.
+2023-05-24 16:52:15.360 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 28.7075ms
+2023-05-24 16:52:15.360 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:15.360 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 33.6699ms
+2023-05-24 16:52:15.930 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:52:15.930 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2519ms
+2023-05-24 16:52:45.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:52:45.411 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:45.412 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:45.414 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:52:45.422 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:52:45.428 +05:30 [INF] Executed ViewResult - view Index executed in 13.7812ms.
+2023-05-24 16:52:45.429 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 14.198ms
+2023-05-24 16:52:45.429 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:45.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 18.8496ms
+2023-05-24 16:52:45.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:52:45.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 1.2628ms
+2023-05-24 16:52:51.238 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:52:51.239 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:51.239 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:51.241 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:52:51.259 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:52:51.277 +05:30 [INF] Executed ViewResult - view Index executed in 25.7772ms.
+2023-05-24 16:52:51.277 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 35.9754ms
+2023-05-24 16:52:51.277 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:52:51.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 38.9319ms
+2023-05-24 16:52:51.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:52:51.356 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2331ms
+2023-05-24 16:52:58.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:52:58.975 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:58.975 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:52:58.977 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:52:58.983 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:52:59.120 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 140.1967ms.
+2023-05-24 16:52:59.124 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 147.1813ms
+2023-05-24 16:52:59.125 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:52:59.125 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 150.5214ms
+2023-05-24 16:52:59.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:52:59.279 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:52:59.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 44.0682ms
+2023-05-24 16:52:59.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:52:59.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2422ms
+2023-05-24 16:53:04.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:04.124 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:04.126 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:04.127 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:04.127 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:04.128 +05:30 [INF] Executed ViewResult - view Index executed in 1.0983ms.
+2023-05-24 16:53:04.128 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 1.6876ms
+2023-05-24 16:53:04.129 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:04.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 5.6003ms
+2023-05-24 16:53:04.350 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:04.350 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2289ms
+2023-05-24 16:53:06.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:06.006 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:06.007 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:06.007 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:06.007 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:06.021 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 13.9474ms.
+2023-05-24 16:53:06.022 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 14.9072ms
+2023-05-24 16:53:06.022 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:06.023 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 16.7557ms
+2023-05-24 16:53:06.189 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:06.190 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2341ms
+2023-05-24 16:53:06.190 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:06.198 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:06.198 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 8.4709ms
+2023-05-24 16:53:32.186 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:32.190 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:32.190 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:32.192 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:32.201 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:32.219 +05:30 [INF] Executed ViewResult - view Index executed in 26.2023ms.
+2023-05-24 16:53:32.219 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 26.7483ms
+2023-05-24 16:53:32.219 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:32.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 33.0502ms
+2023-05-24 16:53:32.299 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:32.307 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:32.307 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:32.310 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:32.312 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:32.334 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 22.5301ms.
+2023-05-24 16:53:32.334 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 23.447ms
+2023-05-24 16:53:32.334 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:32.334 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 35.0233ms
+2023-05-24 16:53:32.449 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:32.450 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3429ms
+2023-05-24 16:53:32.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:32.680 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:32.680 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 12.0672ms
+2023-05-24 16:53:32.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:32.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2980ms
+2023-05-24 16:53:34.927 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:34.927 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:34.927 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:34.929 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:34.936 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:34.954 +05:30 [INF] Executed ViewResult - view Index executed in 24.2547ms.
+2023-05-24 16:53:34.954 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 24.7631ms
+2023-05-24 16:53:34.954 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:34.954 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 27.8154ms
+2023-05-24 16:53:35.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:35.028 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:35.028 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:35.030 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:35.031 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:35.038 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 7.4511ms.
+2023-05-24 16:53:35.038 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 7.6907ms
+2023-05-24 16:53:35.038 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:35.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 11.6898ms
+2023-05-24 16:53:35.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:35.296 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:35.296 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2143ms
+2023-05-24 16:53:35.301 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:35.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 13.4854ms
+2023-05-24 16:53:35.374 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:35.375 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2828ms
+2023-05-24 16:53:40.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:40.355 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:40.356 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:40.356 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:40.356 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:40.359 +05:30 [INF] Executed ViewResult - view Index executed in 3.3553ms.
+2023-05-24 16:53:40.360 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 3.7416ms
+2023-05-24 16:53:40.360 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:40.360 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 5.0307ms
+2023-05-24 16:53:40.494 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:40.494 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2338ms
+2023-05-24 16:53:42.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:42.615 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:42.615 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:42.615 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:42.615 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:42.617 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 1.356ms.
+2023-05-24 16:53:42.617 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 1.5946ms
+2023-05-24 16:53:42.617 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:42.617 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 2.5796ms
+2023-05-24 16:53:42.700 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:42.701 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:42.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 1.0619ms
+2023-05-24 16:53:42.706 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:42.706 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1792ms
+2023-05-24 16:53:49.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:49.413 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:49.414 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:49.418 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:49.421 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:49.437 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 17.9004ms.
+2023-05-24 16:53:49.437 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 19.3372ms
+2023-05-24 16:53:49.437 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:49.437 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 26.9847ms
+2023-05-24 16:53:49.728 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:49.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 27.5988ms
+2023-05-24 16:53:49.819 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:49.840 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:49.840 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 21.3022ms
+2023-05-24 16:53:50.100 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:50.100 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:50.101 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:50.102 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:50.105 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:50.148 +05:30 [INF] Executed ViewResult - view Index executed in 45.1735ms.
+2023-05-24 16:53:50.152 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 49.8919ms
+2023-05-24 16:53:50.153 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:50.154 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 53.7920ms
+2023-05-24 16:53:50.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:50.265 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:50.265 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:50.265 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:50.265 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:50.266 +05:30 [INF] Executed ViewResult - view Index executed in 0.7071ms.
+2023-05-24 16:53:50.266 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 0.9925ms
+2023-05-24 16:53:50.266 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:50.266 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 2.0608ms
+2023-05-24 16:53:50.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:50.611 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2137ms
+2023-05-24 16:53:52.434 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:53:52.435 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:52.435 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:52.435 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:53:52.436 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:53:52.445 +05:30 [INF] Executed ViewResult - view Index executed in 9.7256ms.
+2023-05-24 16:53:52.445 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 10.4607ms
+2023-05-24 16:53:52.448 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:53:52.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 14.1934ms
+2023-05-24 16:53:52.709 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:52.709 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2105ms
+2023-05-24 16:53:54.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:53:54.059 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:54.059 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:54.061 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:53:54.076 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:53:54.096 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 34.7905ms.
+2023-05-24 16:53:54.096 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 35.2592ms
+2023-05-24 16:53:54.096 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:53:54.108 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 49.9854ms
+2023-05-24 16:53:54.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:53:54.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2103ms
+2023-05-24 16:53:54.316 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:53:54.329 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:53:54.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 13.4852ms
+2023-05-24 16:54:40.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:54:40.609 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:54:40.610 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:54:40.612 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:54:40.629 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:54:40.660 +05:30 [INF] Executed ViewResult - view Index executed in 45.6537ms.
+2023-05-24 16:54:40.660 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 48.0971ms
+2023-05-24 16:54:40.660 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:54:40.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 52.0628ms
+2023-05-24 16:54:40.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:54:40.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1902ms
+2023-05-24 16:54:49.783 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:54:49.784 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:54:49.798 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:54:49.804 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:54:49.815 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:54:49.843 +05:30 [INF] Executed ViewResult - view Index executed in 30.3561ms.
+2023-05-24 16:54:49.843 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 38.5556ms
+2023-05-24 16:54:49.843 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:54:49.843 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 59.6032ms
+2023-05-24 16:54:50.037 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:54:50.037 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.1924ms
+2023-05-24 16:54:57.295 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:54:57.295 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3071ms
+2023-05-24 16:54:57.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:54:57.840 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-24 16:54:57.841 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:54:57.843 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:54:57.844 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:54:57.849 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 6.1407ms.
+2023-05-24 16:54:57.849 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 6.4568ms
+2023-05-24 16:54:57.849 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:54:57.850 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 13.4583ms
+2023-05-24 16:54:58.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:54:58.025 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2228ms
+2023-05-24 16:55:04.425 +05:30 [INF] Application is shutting down...
+2023-05-24 16:55:47.487 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:55:47.905 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:55:47.920 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:55:47.920 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:55:47.920 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:55:49.947 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:55:50.464 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:55:50.896 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:55:50.978 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:55:51.040 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:55:51.628 +05:30 [INF] Executed ViewResult - view Index executed in 587.336ms.
+2023-05-24 16:55:51.639 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 659.4224ms
+2023-05-24 16:55:51.639 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:55:51.694 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1770.5831ms
+2023-05-24 16:55:52.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:55:52.215 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.7547ms
+2023-05-24 16:55:58.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - -
+2023-05-24 16:55:58.431 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-24 16:55:58.436 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller IdentityManagement.Controllers.AdminController (IdentityManagement).
+2023-05-24 16:55:58.444 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-24 16:55:58.713 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 272.978ms.
+2023-05-24 16:55:58.713 +05:30 [INF] Executed action IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement) in 276.734ms
+2023-05-24 16:55:58.714 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.AdminController.AdminLogin (IdentityManagement)'
+2023-05-24 16:55:58.715 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/AdminLogin - - - 200 - text/html;+charset=utf-8 290.8505ms
+2023-05-24 16:55:59.275 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - -
+2023-05-24 16:55:59.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/popper.js - - - 404 0 - 30.2477ms
+2023-05-24 16:55:59.306 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - -
+2023-05-24 16:55:59.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/slide navbar style.css - - - 404 0 - 1.4674ms
+2023-05-24 16:55:59.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - -
+2023-05-24 16:55:59.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - -
+2023-05-24 16:55:59.309 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/bootstrap.min.js - - - 404 0 - 0.9905ms
+2023-05-24 16:55:59.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - -
+2023-05-24 16:55:59.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/main.js - - - 404 0 - 0.6003ms
+2023-05-24 16:55:59.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Admin/js/jquery.min.js - - - 404 0 - 1.0530ms
+2023-05-24 16:55:59.311 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:55:59.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7054ms
+2023-05-24 16:56:02.483 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:56:02.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4092ms
+2023-05-24 16:56:12.858 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:56:12.860 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:12.862 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:56:12.864 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:56:12.866 +05:30 [INF] Executed ViewResult - view Index executed in 2.9077ms.
+2023-05-24 16:56:12.866 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 4.2717ms
+2023-05-24 16:56:12.866 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:12.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 8.6301ms
+2023-05-24 16:56:13.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:56:13.210 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3138ms
+2023-05-24 16:56:15.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:56:15.150 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:15.150 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:56:15.150 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:56:15.152 +05:30 [INF] Executed ViewResult - view Index executed in 1.1862ms.
+2023-05-24 16:56:15.152 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 1.6794ms
+2023-05-24 16:56:15.152 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:15.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 2.6457ms
+2023-05-24 16:56:15.457 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:56:15.457 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2304ms
+2023-05-24 16:56:16.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:56:16.605 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:16.605 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:56:16.606 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:56:16.607 +05:30 [INF] Executed ViewResult - view Index executed in 1.2329ms.
+2023-05-24 16:56:16.607 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 1.6357ms
+2023-05-24 16:56:16.607 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:56:16.607 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 2.5752ms
+2023-05-24 16:56:16.808 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:56:16.808 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2108ms
+2023-05-24 16:56:19.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - -
+2023-05-24 16:56:19.354 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:56:19.357 +05:30 [INF] Route matched with {action = "EmployeeLogin", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeLogin() on controller IdentityManagement.Controllers.EmployeeController (IdentityManagement).
+2023-05-24 16:56:19.367 +05:30 [INF] Executing ViewResult, running view EmployeeLogin.
+2023-05-24 16:56:19.490 +05:30 [INF] Executed ViewResult - view EmployeeLogin executed in 130.5456ms.
+2023-05-24 16:56:19.540 +05:30 [INF] Executed action IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement) in 182.4569ms
+2023-05-24 16:56:19.540 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.EmployeeController.EmployeeLogin (IdentityManagement)'
+2023-05-24 16:56:19.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/EmployeeLogin - - - 200 - text/html;+charset=utf-8 186.5095ms
+2023-05-24 16:56:19.800 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:56:19.800 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3181ms
+2023-05-24 16:56:19.800 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - -
+2023-05-24 16:56:19.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Employee/slide navbar style.css - - - 404 0 - 4.4216ms
+2023-05-24 16:56:26.488 +05:30 [INF] Application is shutting down...
+2023-05-24 16:57:07.455 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:57:07.784 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:57:07.799 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:57:07.800 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:57:07.800 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:57:10.317 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:57:10.625 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:57:11.066 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:57:11.206 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:57:11.307 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:57:11.764 +05:30 [INF] Executed ViewResult - view Index executed in 510.4548ms.
+2023-05-24 16:57:11.767 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 559.4631ms
+2023-05-24 16:57:11.767 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:57:11.793 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1521.4100ms
+2023-05-24 16:57:12.946 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:57:12.950 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.3622ms
+2023-05-24 16:57:21.988 +05:30 [INF] Application is shutting down...
+2023-05-24 16:58:52.883 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 16:58:53.306 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 16:58:53.375 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 16:58:53.376 +05:30 [INF] Hosting environment: Development
+2023-05-24 16:58:53.376 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 16:58:56.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:58:57.094 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 16:58:58.755 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:58:58.840 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:58:58.910 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:58:59.456 +05:30 [INF] Executed ViewResult - view Index executed in 537.0107ms.
+2023-05-24 16:58:59.460 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 618.7434ms
+2023-05-24 16:58:59.461 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:58:59.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 2863.6249ms
+2023-05-24 16:59:00.290 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:59:00.298 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 7.4520ms
+2023-05-24 16:59:07.916 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:59:07.928 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:59:07.929 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:59:07.930 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:59:07.940 +05:30 [INF] Executed ViewResult - view Index executed in 10.6966ms.
+2023-05-24 16:59:07.941 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 11.9945ms
+2023-05-24 16:59:07.941 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:59:07.941 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 25.5473ms
+2023-05-24 16:59:08.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:59:08.102 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.8272ms
+2023-05-24 16:59:34.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 16:59:34.441 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:59:34.441 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 16:59:34.441 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 16:59:34.443 +05:30 [INF] Executed ViewResult - view Index executed in 1.4289ms.
+2023-05-24 16:59:34.443 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 1.798ms
+2023-05-24 16:59:34.443 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 16:59:34.443 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 35.2366ms
+2023-05-24 16:59:35.306 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 16:59:35.307 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.3226ms
+2023-05-24 16:59:40.083 +05:30 [INF] Application is shutting down...
+2023-05-24 17:01:11.571 +05:30 [INF] User profile is available. Using 'C:\Users\sargu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 17:01:11.878 +05:30 [INF] Now listening on: http://localhost:5211
+2023-05-24 17:01:11.892 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 17:01:11.893 +05:30 [INF] Hosting environment: Development
+2023-05-24 17:01:11.893 +05:30 [INF] Content root path: C:\Users\sargu\Desktop\FinalProject\IdentityManagement
+2023-05-24 17:01:14.276 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 17:01:14.490 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-24 17:01:14.935 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:01:15.035 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 17:01:15.192 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 17:01:15.665 +05:30 [INF] Executed ViewResult - view Index executed in 582.3944ms.
+2023-05-24 17:01:15.670 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 634.2477ms
+2023-05-24 17:01:15.670 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:01:15.847 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 1654.3276ms
+2023-05-24 17:01:15.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 17:01:15.879 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 4.9391ms
+2023-05-24 17:02:03.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 17:02:03.507 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:02:03.511 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 17:02:03.521 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 17:02:03.629 +05:30 [INF] Executed ViewResult - view Index executed in 115.1802ms.
+2023-05-24 17:02:03.629 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 117.4906ms
+2023-05-24 17:02:03.629 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:02:03.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 200 - text/html;+charset=utf-8 133.2834ms
+2023-05-24 17:02:03.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 17:02:03.831 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 7.7429ms
+2023-05-24 17:02:08.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/ - -
+2023-05-24 17:02:08.293 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:02:08.310 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.HomeController (IdentityManagement).
+2023-05-24 17:02:08.579 +05:30 [INF] Executing RedirectResult, redirecting to /Error/Index.
+2023-05-24 17:02:08.580 +05:30 [INF] Executed action IdentityManagement.Controllers.HomeController.Index (IdentityManagement) in 270.3059ms
+2023-05-24 17:02:08.580 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.HomeController.Index (IdentityManagement)'
+2023-05-24 17:02:08.581 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/ - - - 302 0 - 301.2508ms
+2023-05-24 17:02:08.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Error/Index - -
+2023-05-24 17:02:08.664 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:08.665 +05:30 [INF] Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.ErrorController (IdentityManagement).
+2023-05-24 17:02:08.674 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 17:02:08.695 +05:30 [INF] Executed ViewResult - view Index executed in 28.5006ms.
+2023-05-24 17:02:08.695 +05:30 [INF] Executed action IdentityManagement.Controllers.ErrorController.Index (IdentityManagement) in 29.4395ms
+2023-05-24 17:02:08.695 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:08.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Error/Index - - - 200 - text/html;+charset=utf-8 36.9546ms
+2023-05-24 17:02:08.899 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 17:02:08.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 1.2564ms
+2023-05-24 17:02:30.031 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Error/Index - -
+2023-05-24 17:02:30.032 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:30.034 +05:30 [INF] Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.ErrorController (IdentityManagement).
+2023-05-24 17:02:30.037 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 17:02:30.053 +05:30 [INF] Executed ViewResult - view Index executed in 18.4239ms.
+2023-05-24 17:02:30.053 +05:30 [INF] Executed action IdentityManagement.Controllers.ErrorController.Index (IdentityManagement) in 18.7444ms
+2023-05-24 17:02:30.053 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:30.053 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Error/Index - - - 200 - text/html;+charset=utf-8 22.0670ms
+2023-05-24 17:02:30.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 17:02:30.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2686ms
+2023-05-24 17:02:33.310 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/Error/Index - -
+2023-05-24 17:02:33.311 +05:30 [INF] Executing endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:33.318 +05:30 [INF] Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityManagement.Controllers.ErrorController (IdentityManagement).
+2023-05-24 17:02:33.328 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-24 17:02:33.339 +05:30 [INF] Executed ViewResult - view Index executed in 21.0841ms.
+2023-05-24 17:02:33.339 +05:30 [INF] Executed action IdentityManagement.Controllers.ErrorController.Index (IdentityManagement) in 21.4795ms
+2023-05-24 17:02:33.339 +05:30 [INF] Executed endpoint 'IdentityManagement.Controllers.ErrorController.Index (IdentityManagement)'
+2023-05-24 17:02:33.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/Error/Index - - - 200 - text/html;+charset=utf-8 29.1747ms
+2023-05-24 17:02:33.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 17:02:33.586 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5211/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.2535ms
+2023-05-24 17:07:06.797 +05:30 [INF] Application is shutting down...

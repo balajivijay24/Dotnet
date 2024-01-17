@@ -1,0 +1,204 @@
+@inject IHttpContextAccessor HttpContextAccessor;
+@{
+    ViewData["Title"] = "Indexes";
+}
+@model List<IdentityManagement.Models.EmployeeData>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/EmployeeProfile.css" asp-append-version="true" />
+</head>
+<style>
+body{
+  
+
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+</style>
+ <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="~/images/Elogo.png" style="width: 5%;margin-right:30px;"  alt="LOGO">
+                <a class="navbar-brand" asp-area="">EMPLOYEE MANAGEMENT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse  justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="viewProfile"><b>Profile</b></a>
+                          <li class="nav-item">  <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="Indexes"><b>View Details</b></a></li> 
+                        
+                              <li class="nav-item">   <a class="nav-link text-dark" asp-area="" asp-controller="Request" asp-action="Create"><b>Request</b></a>
+                        </li></ul>
+                          <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" >
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                         <a class="nav-link text-dark" asp-area="" asp-controller="Request" asp-action="RequestStatus"> <i class="fa fa-bell" style="font-size:28px;color:rgb(22, 17, 19)"></i></a>
+                           
+                        </li>
+                        <li class="nav-item">
+                         <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeData" asp-action="viewProfile"> <i class="fa fa-user" style="font-size:28px;color:rgb(22, 17, 19)"></i></a>
+                         
+                        </li>
+                         <li class="nav-item">
+                        
+                           <a class="greeting nav-link text-dark" style="color: rgb(187, 26, 26);">  Hi  @HttpContextAccessor.HttpContext.Session.GetString("EmailId")</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>
+                        </li>
+                    </ul>
+                </div> 
+                         
+             </div>
+                  
+            </div>
+        </nav>
+ 
+  
+ @* <div style="margin-top:20px" class="text-center">
+   <section class="">
+    <div class="container">
+        <div class="content">
+            <div class="col-lg-12 mb-4 mb-sm-5">
+                <div class="card card-style1 border-0">
+                    <div class="card-body p-1-9 p-sm-2-3 p-md-6 p-lg-7">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                              <img src="~/images/images.png" alt="...">
+                            </div>
+                            @foreach (var employee in Model){
+                            <div class="col-lg-6 px-xl-10">
+                                <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
+                                    <h3 class="h2 text-white mb-0">@employee.Name</h3>
+                                    <span class="text-primary">@employee.MobileNumber</span>
+                                </div>
+                                <ul class="list-unstyled mb-1-9">
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Position:</span> developer</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Experience:</span> 5 Years</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> sargunan@gmail.com</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Website:</span> www.aspiresystem.com</li>
+                                    <li class="display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone:</span>9342767970</li>
+                                </ul>
+                                <ul class="social-icon-style1 list-unstyled mb-0 ps-0">
+                                    <li><a href="#!"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#!"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#!"><i class="ti-pinterest"></i></a></li>
+                                    <li><a href="#!"><i class="ti-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+    
+</div> *@
+
+<body><div>
+     
+@foreach (var employee in Model){
+   <div class="px-4 mt-4">
+    <div class="row">
+        <div class="col-xl-4">
+            <!-- Profile picture card-->
+            <div class="card mb-4 mb-xl-0">
+                <div class="card-header">Profile Picture</div>
+                <div class="card-body text-center">
+                    <!-- Profile picture image-->
+                    <img class="img-account-profile rounded-circle mb-2" src="~/images/@employee.ProfilePicture" alt="">
+                    <!-- Profile picture help block-->
+                    <div class="small font-italic text-muted mb-4">@employee.Name</div>
+                    <!-- Profile picture upload button-->
+                    <button class="btn btn-primary" type="button">@employee.UserID</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header">User Detail</div>
+                <div class="card-body">
+                    <form>
+                        <!-- Form Group (username)-->
+                        <div class="mb-3">
+                            <label class="small mb-1" for="inputUsername">Username </label>
+                            <lable class="form-control"><b>@employee.Name</b></lable>
+                        </div>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (Email)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName">Email Id</label>
+                                <label class="form-control" ><b>@employee.UserID</b></label>
+                            </div>
+                            <!-- Form Group (Password)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLastName">Password</label>
+                                <label class="form-control"><b>@employee.Password</b></label>
+                            </div>
+                        </div>
+                        <!-- Form Row        -->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (Team Name name)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputOrgName">Team Name</label>
+                                <label class="form-control"><b>@employee.TeamName</b></label>
+                            </div>
+                            <!-- Form Group (package)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLocation">Employee Package</label>
+                                <label class="form-control"><b>@employee.EmployeePackage</b></label>
+                            </div>
+                        </div>
+                        <!-- Form Group (address)-->
+                        <div class="mb-3">
+                            <label class="small mb-1" for="inputEmailAddress">Address</label>
+                            <label class="form-control"><b>@employee.Address</b></label>
+                        </div>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (phone number)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputPhone">Phone number</label>
+                                <label class="form-control"><b>@employee.MobileNumber</b></label>
+                            </div>
+                            <!-- Form Group (birthday)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputBirthday">Birthday</label>
+                                <label class="form-control"><b>@employee.DateofBirth</b></label>
+                            </div>
+                        </div>
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (Aadhaar number)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputPhone">Aadhaar Number</label>
+                                <label class="form-control"><b>@employee.Aadhaar</b></label>
+                            </div>
+                            <!-- Form Group (Experience)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputBirthday">Experience</label>
+                                <label class="form-control"><b>@employee.Experience</b></label>
+                            </div>
+                        </div>
+                    
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+ </div>
+ }
+</div>
+
+
+ </body>
